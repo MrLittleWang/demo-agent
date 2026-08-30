@@ -6,14 +6,16 @@ import subprocess
 from dotenv import load_dotenv
 import anthropic
 import urllib
+import yaml
 
 load_dotenv()
 
 api_key = os.environ["ANTHROPIC_API_KEY"]
 base_url = os.environ["ANTHROPIC_BASE_URL"]
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[0]
 SKILLS_DIR = ROOT / "skills"
+print(SKILLS_DIR)
 
 
 class SkillLoader:
@@ -27,7 +29,7 @@ class SkillLoader:
         if not self.skills_dir.exists():
             return
         for f in sorted(self.skills_dir.rglob("SKILL.md")):
-            text = f.read_text()
+            text = f.read_text(encoding='utf-8')
             meta, body = self._parse_frontmatter(text)
             name = meta.get("name", f.parent.name)
             self.skills[name] = {"meta": meta, "body": body, "path": str(f)}
@@ -44,6 +46,7 @@ class SkillLoader:
 
     def get_descriptions(self) -> str:
         if not self.skills:
+            print("没有")
             return "(no skills available)"
         lines = []
         for name, skill in self.skills.items():
@@ -183,50 +186,50 @@ while True:
     if msg in ("exit", "quit"):
         break
     history.append({"role": "user", "content": msg})
-    response = client.messages.create(model="deepseek-v4-flash",
-                                      max_tokens=1024,
-                                      system=SYSTEM_PROMPT,
-                                      tools=TOOLS,
-                                      messages=history)
-    history.append({"role": "assistant", "content": response.content})
+    while True:
+        response = client.messages.create(model="deepseek-v4-flash",
+                                          max_tokens=1024,
+                                          system=SYSTEM_PROMPT,
+                                          tools=TOOLS,
+                                          messages=history)
+        history.append({"role": "assistant", "content": response.content})
 
-    if response.stop_reason != "tool_use":
-        reply = next(content.text for content in response.content
-                     if content.type == 'text')
-        print(f"公公给的答复是:{reply}")
+        if response.stop_reason != "tool_use":
+            reply = next(content.text for content in response.content
+                         if content.type == 'text')
+            print(f"公公给的答复是:{reply}")
+            break
 
-    tool_results = []  # 存储工具执行结果
+        tool_results = []  # 存储工具执行结果
 
-    for block in response.content:
-        if block.type != "tool_use":
-            continue
-        if block.type == "tool_use":
-            tool_name = block.name
-            tool_input = block.input
-            if tool_name == 'run_command':
-                command = tool_input['command']
-                print(f"[执行命令]:{command}")
-                output = run_command(command=command)
-                print(f"📤 命令输出:\n{output}")
-                content = output
+        for block in response.content:
+            if block.type != "tool_use":
+                continue
+            if block.type == "tool_use":
+                tool_name = block.name
+                tool_input = block.input
+                if tool_name == 'run_command':
+                    command = tool_input['command']
+                    print(f"[执行命令]:{command}")
+                    output = run_command(command=command)
+                    print(f"📤 命令输出:\n{output}")
+                    content = output
 
-                # history.append({"role": "user", "content": tool_results})
-            elif tool_name == "web_fetch":
-                url = tool_input["url"]
-                mode = tool_input.get("extract_mode", "text")
-                max_chars = tool_input.get("max_chars", 8000)
-                print(f"[网页获取]: {url}")
-                content = web_fetch(url, mode, max_chars)
-                print(f"网页获取到的内容：{content}")
-            elif tool_name == "load_skill":
-                skill_name = tool_input["skill_name"]
-                print(f"[加载技能]: {skill_name}")
-                content = SKILL_LOADER.get_content(skill_name)
-            else:
-                raise ValueError(f"未知工具:{tool_name}")
-            tool_results.append({
-                "type": "tool_result",
-                "tool_use_id": block.id,
-                "content": content
-            })
-    history.append({"role": "user", "content": tool_results})
+                elif tool_name == "web_fetch":
+                    url = tool_input["url"]
+                    mode = tool_input.get("extract_mode", "text")
+                    max_chars = tool_input.get("max_chars", 8000)
+                    print(f"[网页获取]: {url}")
+                    content = web_fetch(url, mode, max_chars)
+                elif tool_name == "load_skill":
+                    skill_name = tool_input["skill_name"]
+                    print(f"[加载技能]: {skill_name}")
+                    content = SKILL_LOADER.get_content(skill_name)
+                else:
+                    raise ValueError(f"未知工具:{tool_name}")
+                tool_results.append({
+                    "type": "tool_result",
+                    "tool_use_id": block.id,
+                    "content": content
+                })
+        history.append({"role": "user", "content": tool_results})

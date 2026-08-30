@@ -1,0 +1,2053 @@
+﻿
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <meta content="always" name="referrer">
+                <meta name="theme-color" content="#2932e1">
+                <link rel="shortcut icon" href="//www.baidu.com/favicon.ico" type="image/x-icon" />
+                <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg">
+                <link rel="dns-prefetch" href="//fyb-pc-static.cdn.bcebos.com"/>
+                <meta name="keywords" content="百度热搜,百度热搜榜,百度搜索排行榜,搜索排行榜,百度热门搜索,今日热搜,今日热点,排行榜,热搜榜,热词榜,热门话题,网络热点,实时热点,热门事件,热点">
+                <meta name="description" content="百度热搜以数亿用户海量的真实数据为基础，通过专业的数据挖掘方法，计算关键词的热搜指数，旨在建立权威、全面、热门、时效的各类关键词排行榜，引领热词阅读时代。">
+                <title>百度热搜</title>
+                <style data-vue-ssr-id="22cfed39:0">
+.c-gap-top-small {
+  margin-top: 3px;
+}
+.c-gap-top {
+  margin-top: 7px;
+}
+.c-gap-top-large {
+  margin-top: 11px;
+}
+.c-gap-top-mini {
+  margin-top: 2px;
+}
+.c-gap-top-xsmall {
+  margin-top: 4px;
+}
+.c-gap-top-middle {
+  margin-top: 10px;
+}
+.c-gap-bottom-small {
+  margin-bottom: 3px;
+}
+.c-gap-bottom {
+  margin-bottom: 7px;
+}
+.c-gap-bottom-large {
+  margin-bottom: 11px;
+}
+.c-gap-bottom-mini {
+  margin-bottom: 2px;
+}
+.c-gap-bottom-xsmall {
+  margin-bottom: 4px;
+}
+.c-gap-bottom-middle {
+  margin-bottom: 10px;
+}
+.c-gap-left {
+  margin-left: 12px;
+}
+.c-gap-left-small {
+  margin-left: 8px;
+}
+.c-gap-left-xsmall {
+  margin-left: 4px;
+}
+.c-gap-left-mini {
+  margin-left: 2px;
+}
+.c-gap-left-large {
+  margin-left: 16px;
+}
+.c-gap-left-middle {
+  margin-left: 10px;
+}
+.c-gap-right {
+  margin-right: 12px;
+}
+.c-gap-right-small {
+  margin-right: 8px;
+}
+.c-gap-right-xsmall {
+  margin-right: 4px;
+}
+.c-gap-right-mini {
+  margin-right: 2px;
+}
+.c-gap-right-large {
+  margin-right: 16px;
+}
+.c-gap-right-middle {
+  margin-right: 10px;
+}
+.c-gap-icon-right-small {
+  margin-right: 5px;
+}
+.c-gap-icon-right {
+  margin-right: 10px;
+}
+.c-gap-icon-left-small {
+  margin-left: 5px;
+}
+.c-gap-icon-left {
+  margin-left: 10px;
+}
+.c-row {
+  *zoom: 1;
+}
+.c-row:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+  visibility: hidden;
+}
+.c-span1 {
+  width: 32px;
+}
+.c-span2 {
+  width: 80px;
+}
+.c-span3 {
+  width: 128px;
+}
+.c-span4 {
+  width: 176px;
+}
+.c-span5 {
+  width: 224px;
+}
+.c-span6 {
+  width: 272px;
+}
+.c-span7 {
+  width: 320px;
+}
+.c-span8 {
+  width: 368px;
+}
+.c-span9 {
+  width: 416px;
+}
+.c-span10 {
+  width: 464px;
+}
+.c-span11 {
+  width: 512px;
+}
+.c-span12 {
+  width: 560px;
+}
+.c-span2,
+.c-span3,
+.c-span4,
+.c-span5,
+.c-span6,
+.c-span7,
+.c-span8,
+.c-span9,
+.c-span10,
+.c-span11,
+.c-span12 {
+  float: left;
+  _display: inline;
+  margin-right: 16px;
+  list-style: none;
+}
+.c-span-last {
+  margin-right: 0;
+}
+.c-span-last-s {
+  margin-right: 0;
+}
+.c-feed-box .c-span1 {
+  width: 43px;
+}
+.c-feed-box .c-span2 {
+  width: 90px;
+}
+.c-feed-box .c-span3 {
+  width: 137px;
+}
+.c-feed-box .c-span4 {
+  width: 184px;
+}
+.c-feed-box .c-span5 {
+  width: 231px;
+}
+.c-feed-box .c-span6 {
+  width: 278px;
+}
+.c-feed-box .c-span7 {
+  width: 325px;
+}
+.c-feed-box .c-span8 {
+  width: 372px;
+}
+.c-feed-box .c-span9 {
+  width: 419px;
+}
+.c-feed-box .c-span10 {
+  width: 466px;
+}
+.c-feed-box .c-span11 {
+  width: 513px;
+}
+.c-feed-box .c-span12 {
+  width: 560px;
+}
+.c-feed-box .c-span2,
+.c-feed-box .c-span3,
+.c-feed-box .c-span4,
+.c-feed-box .c-span5,
+.c-feed-box .c-span6,
+.c-feed-box .c-span7,
+.c-feed-box .c-span8,
+.c-feed-box .c-span9,
+.c-feed-box .c-span10,
+.c-feed-box .c-span11,
+.c-feed-box .c-span12 {
+  margin-right: 4px;
+}
+.c-feed-box .c-span-last {
+  margin-right: 0;
+}
+.c-index {
+  display: inline-block;
+  width: 14px;
+  padding: 1px 0;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: #8eb9f5;
+  font-size: 12px;
+}
+.c-index-hot,
+.c-index-hot1 {
+  background-color: #f54545;
+}
+.c-index-hot2 {
+  background-color: #ff8547;
+}
+.c-index-hot3 {
+  background-color: #ffac38;
+}
+.c-index-single {
+  display: inline-block;
+  background: 0 0;
+  color: #9195A3;
+  width: 18px;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+.c-index-single-hot,
+.c-index-single-hot1 {
+  color: #FE2D46;
+}
+.c-index-single-hot2 {
+  color: #F60;
+}
+.c-index-single-hot3 {
+  color: #FAA90E;
+}
+.c-font-sigma {
+  font: 36px/60px Arial, sans-serif;
+}
+.c-font-large {
+  font: 20px/30px Arial, sans-serif;
+}
+.c-font-big {
+  font: 20px/30px Arial, sans-serif;
+}
+.c-font-special {
+  font: 16px/26px Arial, sans-serif;
+}
+.c-font-medium {
+  font: 14px/24px Arial, sans-serif;
+}
+.c-font-middle {
+  font: 14px/24px Arial, sans-serif;
+}
+.c-font-normal {
+  font: 13px/23px Arial, sans-serif;
+}
+.c-font-small {
+  font: 12px/20px Arial, sans-serif;
+}
+.c-font-family {
+  font-family: Arial, sans-serif;
+}
+.c-color-t {
+  color: #222;
+}
+.c-color-text {
+  color: #333;
+}
+.c-color-gray {
+  color: #626675;
+}
+.c-color-gray2 {
+  color: #9195A3;
+}
+.c-color-visited {
+  color: #626675;
+}
+.c-color-link {
+  color: #222;
+}
+.c-color-orange {
+  color: #FA4901;
+}
+.c-color-green {
+  color: #0EBE90;
+}
+.c-color-ad {
+  color: #77A9F9;
+}
+.c-color-red {
+  color: #F63051;
+}
+.c-color-red:visited {
+  color: #F63051;
+}
+.c-color-warn {
+  color: #FF7900;
+}
+.c-color-warn:visited {
+  color: #FF7900;
+}
+.c-color-link {
+  color: #3951b3;
+}
+.c-btn,
+.c-btn:visited {
+  color: #333 !important;
+}
+.c-btn {
+  display: inline-block;
+  overflow: hidden;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  outline: 0;
+  border: 0;
+  height: 30px;
+  width: 80px;
+  line-height: 30px;
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 0;
+  background-color: #F5F5F6;
+  *zoom: 1;
+  cursor: pointer;
+}
+.c-btn:hover {
+  background-color: #315EFB;
+  color: #FFF !important;
+}
+a.c-btn {
+  text-decoration: none;
+}
+button.c-btn {
+  *overflow: visible;
+  border: 0;
+}
+button.c-btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.c-btn-disable {
+  color: #C4C7CE !important;
+}
+.c-btn-disable:visited {
+  color: #C4C7CE !important;
+}
+.c-btn-disable:hover {
+  cursor: default;
+  color: #C4C7CE !important;
+  background-color: #F5F5F6;
+}
+.c-btn-mini {
+  height: 24px;
+  width: 48px;
+  line-height: 24px;
+}
+.c-btn-mini .c-icon {
+  margin-top: 2px;
+}
+.c-btn-large {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+button.c-btn-large {
+  height: 30px;
+  _line-height: 24px;
+}
+.c-btn-large .c-icon {
+  margin-top: 7px;
+  _margin-top: 6px;
+}
+.c-btn-primary,
+.c-btn-primary:visited {
+  color: #fff !important;
+}
+.c-btn-primary {
+  background-color: #4E6EF2;
+}
+.c-btn-primary:hover {
+  background-color: #315EFB;
+}
+.c-btn-weak {
+  height: 24px;
+  line-height: 24px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.c-btn-add {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  color: #9195A3 !important;
+}
+.c-btn-add:hover {
+  background-color: #4E6EF2;
+  color: #fff !important;
+}
+.c-btn-add .c-icon {
+  float: none;
+}
+.c-btn-add-disable:hover {
+  cursor: default;
+  color: #C4C7CE !important;
+  background-color: #F5F5F6;
+}
+.c-select {
+  position: relative;
+  display: inline-block;
+  width: 96px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  vertical-align: middle;
+  color: #222;
+  font: 13px/23px Arial, sans-serif;
+}
+.c-select-selection {
+  display: block;
+  height: 30px;
+  line-height: 29px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 26px 0 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #D7D9E0;
+  outline: 0;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.c-select-arrow,
+.c-select-arrow-up {
+  position: absolute;
+  top: -1px;
+  right: 10px;
+  color: #9195A3;
+  font-size: 16px;
+}
+.c-select-dropdown {
+  display: none;
+  position: absolute;
+  padding-top: 4px;
+  top: 25px;
+  z-index: 999;
+  left: 0;
+  width: 94px;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  background: #fff;
+  border-radius: 0 0 6px 6px;
+  border: 1px solid #D7D9E0;
+  border-top: 0;
+  zoom: 1;
+}
+.c-select-split {
+  border-top: 1px solid #f5f5f5;
+  margin: 0 5px;
+}
+.c-select-dropdown-list {
+  padding: 0;
+  margin: 5px 0 0;
+  list-style: none;
+}
+.c-select-dropdown-list.c-select-scroll {
+  max-height: 207px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: 5px;
+  margin-bottom: 9px;
+}
+.c-select-dropdown-list.c-select-scroll::-webkit-scrollbar {
+  width: 2px;
+}
+.c-select-dropdown-list.c-select-scroll::-webkit-scrollbar-track {
+  width: 2px;
+  background: #f5f5f6;
+  border-radius: 1px;
+}
+.c-select-dropdown-list.c-select-scroll::-webkit-scrollbar-thumb {
+  width: 2px;
+  height: 58px;
+  background-color: #4e71f2;
+  border-radius: 1px;
+}
+.c-select-dropdown-list.c-select-scroll .c-select-item:last-child {
+  margin: 0;
+}
+.c-select-item {
+  margin: 0 0 4px;
+  padding: 0 10px;
+  clear: both;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.c-select-item:hover {
+  color: #315EFB;
+}
+.c-select-item-selected {
+  color: #315EFB;
+}
+.c-select-arrow-up {
+  display: none;
+}
+.c-select-visible .c-select-selection {
+  border-radius: 6px 6px 0 0;
+}
+.c-select-visible .c-select-dropdown {
+  display: block;
+}
+.c-select-visible .c-select-arrow {
+  display: none;
+}
+.c-select-visible .c-select-arrow-up {
+  display: inline-block;
+}
+.c-img {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  border: 0;
+  line-height: 0;
+  background: #f5f5f6;
+  overflow: hidden;
+}
+.c-img img {
+  width: 100%;
+}
+.c-img1 {
+  width: 32px;
+}
+.c-img2 {
+  width: 80px;
+}
+.c-img3 {
+  width: 128px;
+}
+.c-img4 {
+  width: 176px;
+}
+.c-img6 {
+  width: 272px;
+}
+.c-img12 {
+  width: 560px;
+}
+.c-feed-box .c-img1 {
+  width: 43px;
+}
+.c-feed-box .c-img2 {
+  width: 90px;
+}
+.c-feed-box .c-img3 {
+  width: 137px;
+}
+.c-feed-box .c-img4 {
+  width: 184px;
+}
+.c-feed-box .c-img6 {
+  width: 278px;
+}
+.c-feed-box .c-img12 {
+  width: 560px;
+}
+.c-img-s,
+.c-img-l,
+.c-img-w,
+.c-img-x,
+.c-img-y,
+.c-img-v,
+.c-img-z {
+  height: 0;
+  overflow: hidden;
+}
+.c-img-s {
+  padding-bottom: 100%;
+}
+.c-img-l {
+  padding-bottom: 133.33333333%;
+}
+.c-img-w {
+  padding-bottom: 56.25%;
+}
+.c-img-x {
+  padding-bottom: 75%;
+}
+.c-img-y {
+  padding-bottom: 66.66666667%;
+}
+.c-img-v {
+  padding-bottom: 116.66666667%;
+}
+.c-img-z {
+  padding-bottom: 62.5%;
+}
+.c-img-radius {
+  border-radius: 6px;
+}
+.c-img-radius-s {
+  border-radius: 2px;
+}
+.c-img-radius-small {
+  border-radius: 2px;
+}
+.c-img-radius-large {
+  border-radius: 12px;
+}
+.c-img-radius-middle {
+  border-radius: 4px;
+}
+.c-img-radius-left {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.c-img-radius-right {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.c-img-radius-left-s {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.c-img-radius-right-s {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.c-img-radius-left-l {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.c-img-radius-right-l {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.c-img-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.04));
+  background-image: -ms-radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.04));
+}
+.c-img-border {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.c-img-circle {
+  border-radius: 100%;
+  overflow: hidden;
+}
+.c-input {
+  display: inline-block;
+  font: 13px/23px Arial, sans-serif;
+  color: #333;
+  padding: 0 10px;
+  border: 1px solid #D7D9E0;
+  border-radius: 6px;
+  height: 28px;
+  line-height: 28px\9;
+  font-size: 13px;
+  outline: 0;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  vertical-align: top;
+  overflow: hidden;
+}
+.c-input .c-icon {
+  float: right;
+  margin-top: 6px;
+  font-size: 16px;
+  color: #9195A3;
+}
+.c-input .c-icon-left {
+  float: left;
+  margin-right: 4px;
+}
+.c-input input {
+  float: left;
+  font-size: 13px;
+  border: 0;
+  outline: 0;
+}
+.c-input input::-webkit-input-placeholder {
+  color: #9195A3;
+}
+.c-input input::-ms-input-placeholder {
+  color: #9195A3;
+}
+.c-input input::-moz-placeholder {
+  color: #9195A3;
+}
+.c-input::-webkit-input-placeholder {
+  color: #9195A3;
+}
+.c-input::-ms-input-placeholder {
+  color: #9195A3;
+}
+.c-input::-moz-placeholder {
+  color: #9195A3;
+}
+.c-input {
+  width: 394px;
+}
+.c-input input {
+  width: 374px;
+}
+.c-input-xmini {
+  width: 154px;
+}
+.c-input-xmini input {
+  width: 134px;
+}
+.c-input-mini {
+  width: 202px;
+}
+.c-input-mini input {
+  width: 182px;
+}
+.c-input-small {
+  width: 346px;
+}
+.c-input-small input {
+  width: 326px;
+}
+.c-input-large {
+  width: 442px;
+}
+.c-input-large input {
+  width: 422px;
+}
+.c-input-xlarge {
+  width: 730px;
+}
+.c-input-xlarge input {
+  width: 710px;
+}
+.c-input12 {
+  width: 538px;
+}
+.c-input12 input {
+  width: 518px;
+}
+.c-input20 {
+  width: 922px;
+}
+.c-input20 input {
+  width: 902px;
+}
+.c-radio,
+.c-checkbox {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  outline: 0;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+.c-radio-inner,
+.c-checkbox-inner {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: #D7D9E0;
+}
+.c-radio-input,
+.c-checkbox-input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0) \9;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  zoom: 1;
+}
+.c-radio-inner-i,
+.c-checkbox-inner-i {
+  display: none;
+  font-size: 16px;
+}
+.c-radio-inner-bg,
+.c-checkbox-inner-bg {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.c-radio-checked .c-radio-inner-i,
+.c-checkbox-checked .c-checkbox-inner-i {
+  color: #4E71F2;
+  display: inline-block;
+}
+.c-textarea {
+  font: 13px/23px Arial, sans-serif;
+  color: #333;
+  padding: 0 10px;
+  border: 1px solid #D7D9E0;
+  border-radius: 6px;
+  padding: 5px 10px;
+  resize: none;
+  outline: 0;
+}
+.c-textarea::-webkit-input-placeholder {
+  color: #9195A3;
+}
+.c-textarea::-ms-input-placeholder {
+  color: #9195A3;
+}
+.c-textarea::-moz-placeholder {
+  color: #9195A3;
+}
+.c-icon {
+  font-family: cIconfont!important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.c-line-clamp1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.c-line-clamp2 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.c-text {
+  display: inline-block;
+  padding: 0 2px;
+  text-align: center;
+  vertical-align: middle;
+  font-style: normal;
+  color: #fff;
+  overflow: hidden;
+  line-height: 16px;
+  height: 16px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: 200;
+}
+a.c-text {
+  text-decoration: none !important;
+}
+.c-text-info {
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: 700;
+  color: #2b99ff;
+  vertical-align: text-bottom;
+}
+.c-text-info span {
+  padding: 0 2px;
+  font-weight: 400;
+}
+.c-text-important {
+  background-color: #1cb7fd;
+}
+.c-text-public {
+  background-color: #4E6EF2;
+}
+.c-text-warning {
+  background-color: #f60;
+}
+.c-text-prompt {
+  background-color: #ffc20d;
+}
+.c-text-danger {
+  background-color: #f73131;
+}
+.c-text-safe {
+  background-color: #39b362;
+}
+.c-text-mult {
+  padding: 0 4px;
+  line-height: 18px;
+  height: 18px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+.c-text-blue {
+  background-color: #4E6EF2;
+}
+.c-text-blue-border {
+  border: 1px solid #CBD2FF;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #4E6EF2 !important;
+}
+.c-text-green {
+  background-color: #39b362;
+}
+.c-text-green-border {
+  border: 1px solid #C9E7CD;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #39b362 !important;
+}
+.c-text-red {
+  background-color: #f73131;
+}
+.c-text-red-border {
+  border: 1px solid #F0C8BD;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #f73131 !important;
+}
+.c-text-yellow {
+  background-color: #ffc20d;
+}
+.c-text-yellow-border {
+  border: 1px solid #FCEDB1;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #ffc20d !important;
+}
+.c-text-orange {
+  background-color: #f60;
+}
+.c-text-orange-border {
+  border: 1px solid #F8D2B0;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #f60 !important;
+}
+.c-text-pink {
+  background-color: #fc3274;
+}
+.c-text-pink-border {
+  border: 1px solid #F6C4D7;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fc3274 !important;
+}
+.c-text-gray {
+  background-color: #858585;
+}
+.c-text-gray-border {
+  border: 1px solid #DBDBDB;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #858585 !important;
+}
+.c-text-dark-red {
+  background-color: #CC2929;
+}
+.c-text-gray-opacity {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.c-text-white-border {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 0 8px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff !important;
+}
+.c-text-hot {
+  background-color: #F60;
+}
+.c-text-new {
+  background-color: #FF455B;
+}
+.c-text-fei {
+  background-color: #FC3200;
+}
+.c-text-bao {
+  background-color: #DE1544;
+}
+.c-text-rec {
+  background-color: #4DADFE;
+}
+.c-text-business {
+  background-color: #B4C4FF;
+}
+.c-text-time {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.c-wrapper {
+  word-wrap: break-word;
+  word-break: break-all;
+  font: 14px/24px Arial, sans-serif;
+  color: #222;
+}
+.c-wrapper:after {
+  display: block;
+  height: 0;
+  content: "";
+  clear: both;
+  visibility: hidden;
+}
+.c-container {
+  width: 560px;
+}
+.c-wrapper-l {
+  width: 1040px;
+}
+.c-wrapper-l .c-container-r {
+  width: 368px;
+}
+.c-wrapper-s {
+  width: 896px;
+}
+.c-wrapper-s .c-container-r {
+  width: 272px;
+}
+@media screen and (max-width: 1340px) {
+  .c-wrapper {
+    width: 896px;
+  }
+  .c-wrapper .c-container-r {
+    width: 272px;
+  }
+}
+.c-dialog-box {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background: #FFF;
+  padding: 19px 24px;
+}
+.c-dialog-box .c-dialog-close {
+  position: absolute;
+  cursor: pointer;
+  top: 12px;
+  right: 12px;
+  height: 14px;
+  width: 14px;
+  line-height: 1;
+  color: #D7D9E0;
+}
+.c-dialog-box .c-dialog-close:hover {
+  color: #315EFB;
+}
+.c-floating-box {
+  background: #FFF;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  *border: 1px solid #D7D9E0;
+}
+.c-link {
+  color: #222;
+  text-decoration: none;
+}
+.c-link:visited {
+  color: #626675;
+}
+.c-link:hover {
+  color: #315EFB;
+  text-decoration: none;
+}
+.c-capsule-tip {
+  display: inline-block;
+  background: #F63051;
+  border-radius: 7px;
+  padding: 0 4px;
+  height: 13px;
+  font-size: 11px;
+  line-height: 14px;
+  color: #fff;
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+  color: #222;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+button,
+input,
+img {
+  outline: 0;
+  border: 0;
+}
+button {
+  background-color: unset;
+}
+button,
+a {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+.wrapper {
+  min-width: 1320px;
+}
+.wrapper .responsive-wrapper {
+  min-width: 1320px;
+}
+@media (max-width: 1320px) {
+  .wrapper {
+    min-width: 1320px;
+  }
+  .wrapper .responsive-wrapper {
+    min-width: 1320px;
+  }
+}
+.wrapper-narrow {
+  min-width: 1320px;
+}
+.wrapper-narrow .responsive-wrapper {
+  min-width: 1320px;
+}
+.container {
+  display: block;
+  width: 1088px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media (max-width: 1320px) {
+  .container {
+    width: 992px;
+  }
+}
+.wrapper-narrow .container {
+  width: 992px;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+@font-face {
+  font-family: 'cIconfont';
+  src: url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_489aa1f2f0a6e1dfacb56a991a67d6cf.eot);
+  src: url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_489aa1f2f0a6e1dfacb56a991a67d6cf.eot?#iefix) format('embedded-opentype'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_92a48d1bbedbf4e9edf36cb3b355039a.woff2) format('woff2'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_8d19d0cbd6e76cd46858910930e4c4ba.woff) format('woff'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_4906e5628fa7ee368606ee5fa605ff40.ttf) format('ttf'), url(//fyb-pc-static.cdn.bcebos.com/static/asset/iconfont_5bfbad8e8b4fb39824e4823554647eb3.svg#iconfont) format('svg');
+}
+[theme="realtime"] .c-theme-color,
+[theme="homepage"] .c-theme-color {
+  color: #ff4d4d;
+}
+[theme="realtime"] .c-theme-color-bg,
+[theme="homepage"] .c-theme-color-bg {
+  background-color: #ff4d4d;
+}
+[theme="novel"] .c-theme-color {
+  color: #ff6633;
+}
+[theme="novel"] .c-theme-color-bg {
+  background-color: #ff6633;
+}
+[theme="movie"] .c-theme-color {
+  color: #4d4dff;
+}
+[theme="movie"] .c-theme-color-bg {
+  background-color: #4d4dff;
+}
+[theme="teleplay"] .c-theme-color {
+  color: #4d4dff;
+}
+[theme="teleplay"] .c-theme-color-bg {
+  background-color: #4d4dff;
+}
+[theme="cartoon"] .c-theme-color {
+  color: #ff4d4d;
+}
+[theme="cartoon"] .c-theme-color-bg {
+  background-color: #ff4d4d;
+}
+[theme="variety"] .c-theme-color {
+  color: #8a42ff;
+}
+[theme="variety"] .c-theme-color-bg {
+  background-color: #8a42ff;
+}
+[theme="documentary"] .c-theme-color {
+  color: #4d4dff;
+}
+[theme="documentary"] .c-theme-color-bg {
+  background-color: #4d4dff;
+}
+[theme="game"] .c-theme-color {
+  color: #4d4dff;
+}
+[theme="game"] .c-theme-color-bg {
+  background-color: #4d4dff;
+}
+[theme="car"] .c-theme-color {
+  color: #1a8cff;
+}
+[theme="car"] .c-theme-color-bg {
+  background-color: #1a8cff;
+}
+.c-single-text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bg-wrapper {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 800px;
+}
+.bg-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  height: 100%;
+  margin-left: -960px;
+}
+.bg-wrapper img.default {
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  margin-left: 0;
+}
+[theme="homepage"] .bg-wrapper,
+[theme="realtime"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #f44e16 0%, #fff 88%);
+}
+[theme="variety"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #b933ed 0%, #fff 100%);
+}
+[theme="car"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #1a8cff 0%, #fff 100%);
+}
+[theme="novel"] .bg-wrapper,
+[theme="cartoon"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #ff8c1a 0%, #fff 100%);
+}
+[theme="movie"] .bg-wrapper,
+[theme="teleplay"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #4d4dff 0%, #fff 100%);
+}
+[theme="documentary"] .bg-wrapper,
+[theme="game"] .bg-wrapper {
+  background-image: linear-gradient(180deg, #63f 0%, #fff 100%);
+}
+</style>
+<style data-vue-ssr-id="7ef4bd4a:0">
+.header-placeholder_3y-pN {
+  margin-bottom: 8px;
+}
+.header_3wayL {
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff;
+}
+.navi-top-wrapper_20foP {
+  height: 48px;
+  margin-bottom: 34px;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.navi-top-wrapper_20foP:after {
+  content: '';
+  clear: both;
+}
+.navi-top-left_1Zuqa {
+  top: 0;
+  left: 24px;
+}
+.navi-top-right_33qd2 {
+  top: 0;
+  right: 24px;
+}
+.navi-item_2z3vU {
+  float: left;
+  margin-top: 13px;
+  margin-right: 24px;
+}
+.navi-item_2z3vU:hover {
+  color: #fff;
+}
+.tab-wrap_23sEv {
+  overflow: hidden;
+  margin: 34px auto 24px;
+  padding: 0 9px 0 17px;
+}
+.logo-trends-wrapper_150M5 {
+  float: left;
+  width: 196px;
+  height: 58px;
+  cursor: pointer;
+}
+.logo-trends-wrapper_150M5 > img {
+  width: 100%;
+}
+</style>
+<style data-vue-ssr-id="48b40237:0">
+.user-info-wrapper_3WiHw {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 48px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.user-info-wrapper_3WiHw:hover .user-info-popup_1v_mi {
+  display: block;
+}
+.login-btn_2CUrM {
+  float: left;
+  box-sizing: border-box;
+  margin-top: 12px;
+  padding: 5.5px 0;
+  font-size: 13px;
+  line-height: 13px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #3b1107 !important;
+}
+.login-btn_2CUrM:hover {
+  background-color: #fff;
+}
+.user-image-wrapper_Gz69P {
+  float: left;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  margin-top: 9px;
+  margin-left: -2px;
+  padding: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+}
+.user-image-wrapper_Gz69P .user-image_1nM2E {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.user-name_3qt_g {
+  float: left;
+  margin-top: 13px;
+  margin-left: 6px;
+}
+.user-info-popup_1v_mi {
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  display: none;
+  margin-top: -4px;
+  margin-right: -42px;
+  padding: 0 16px 16px;
+}
+.user-info-popup_1v_mi a {
+  display: block;
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 13px;
+  word-break: keep-all;
+  color: #333;
+}
+.user-info-popup_1v_mi a:hover {
+  color: #315efb;
+}
+.login-form-wrapper_1E7lG {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  width: 350px;
+  margin: 100px auto;
+}
+.pop-mask {
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.5 !important;
+}
+</style>
+<style data-vue-ssr-id="cdc6770a:0">
+.tabs-wrap_3Ac9n {
+  float: right;
+  padding: 13px 0;
+  font-size: 0;
+}
+.tab-item_17MbK {
+  position: relative;
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+@media (max-width: 1320px) {
+  .tab-item_17MbK {
+    padding: 8px 15px;
+  }
+}
+.wrapper-narrow .tab-item_17MbK {
+  padding: 8px 15px;
+}
+.tab-item_17MbK.active {
+  border-radius: 15.5px;
+  background-color: #fff;
+  color: inherit;
+}
+.tab-item_17MbK.active:hover {
+  color: inherit;
+}
+.tab-item_17MbK:hover {
+  color: #fff;
+}
+</style>
+<style data-vue-ssr-id="211c6f11:0">
+.tabs-wrapper_7ri4o {
+  position: fixed;
+  top: -40px;
+  z-index: 99;
+  width: 100%;
+  height: 40px;
+  border-radius: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1320px) {
+  .tabs-wrapper_7ri4o {
+    min-width: 1320px;
+  }
+}
+.wrapper-narrow .tabs-wrapper_7ri4o {
+  min-width: 1320px;
+}
+.tabs-container__LAaf {
+  padding: 0 24px;
+}
+.tab_3QhDq {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 40px;
+  color: #222;
+}
+.tab_3QhDq.active {
+  color: inherit;
+}
+.tab_3QhDq:hover {
+  color: #315efb;
+}
+.tab_3QhDq + .tab_3QhDq {
+  margin-left: 36px;
+}
+@media (max-width: 1320px) {
+  .tab_3QhDq + .tab_3QhDq {
+    margin-left: 24px;
+  }
+}
+.wrapper-narrow .tab_3QhDq + .tab_3QhDq {
+  margin-left: 24px;
+}
+.active-underline-wrapper_Lv1CQ {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  overflow: hidden;
+  width: 24px;
+  height: 2px;
+  margin-left: -12px;
+  border-radius: 3.5px;
+}
+.qrcode-wrapper_2Mhwh {
+  float: right;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+.qrcode-wrapper_2Mhwh:hover {
+  color: #fff;
+}
+.qrcode-wrapper_2Mhwh:hover .qrcode-popup_q4FMZ {
+  display: block;
+}
+.fixed .qrcode-wrapper_2Mhwh {
+  color: #222;
+}
+.fixed .qrcode-wrapper_2Mhwh:hover {
+  color: #315efb;
+}
+.qrcode-wrapper_2Mhwh .c-icon {
+  float: left;
+  height: 40px;
+  font-size: 21px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.qrcode-text_1cRGR {
+  float: left;
+  line-height: 40px;
+}
+.qrcode-popup_q4FMZ {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 10;
+  display: none;
+  box-sizing: border-box;
+  width: 128px;
+  margin-top: 4px;
+  margin-left: -64px;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  background-color: #fff;
+}
+.qrcode-popup_q4FMZ p {
+  margin: 6px 0 0;
+  word-break: keep-all;
+}
+.qrcode-image_3Oyr8 {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin-right: auto;
+  margin-bottom: 8px;
+  margin-left: auto;
+}
+</style>
+<style data-vue-ssr-id="7d5bfdb2:0">
+.empty-img_2yOph {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 115px auto 0;
+}
+.empty-text_2IeoW {
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  color: #626675;
+}
+</style>
+<style data-vue-ssr-id="393f488d:0">
+.container_2VTvm {
+  min-height: 600px;
+}
+.right-container_2EFJr {
+  position: relative;
+  padding-left: 192px;
+}
+.container-bg_lQ801 {
+  border-radius: 12px;
+  background-color: #fff;
+}
+.left-side-wrapper_1kYr7 {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.left-side-bg-wrapper_23qvy {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.left-side-bg-wrapper_23qvy img {
+  width: 100%;
+}
+.left-side_1rpOJ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  box-sizing: border-box;
+  width: 176px;
+  min-height: 359px;
+  padding: 24px 23px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.side-title_1wfo5 {
+  margin-bottom: 31px;
+  font-size: 18px;
+  line-height: 18px;
+}
+.path-wrapper_3euWM {
+  padding: 24px 24px 2px;
+  line-height: 13px;
+}
+.path-wrapper_3euWM .c-font-normal {
+  line-height: 13px;
+}
+</style>
+<style data-vue-ssr-id="865f8b72:0">
+.tags-wrap_InWap {
+  margin-top: 24px;
+}
+.tags_1mjZF {
+  overflow: hidden;
+  margin-left: -8px;
+}
+.title_bOM2Q {
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 13px;
+}
+.tag-item_2erEC {
+  float: left;
+  margin: 2px 0;
+  padding: 6px 8px;
+  font-size: 13px;
+  line-height: 13px;
+  color: #626675;
+  cursor: pointer;
+}
+.tag-item_2erEC.active_1oD-- {
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+.tag-item_2erEC:hover {
+  color: #315efb;
+}
+[theme="realtime"] .tag-item_2erEC.active_1oD-- {
+  color: #ff4d4d;
+}
+[theme="novel"] .tag-item_2erEC.active_1oD-- {
+  color: #ff6633;
+}
+[theme="movie"] .tag-item_2erEC.active_1oD-- {
+  color: #4d4dff;
+}
+[theme="teleplay"] .tag-item_2erEC.active_1oD-- {
+  color: #4d4dff;
+}
+[theme="cartoon"] .tag-item_2erEC.active_1oD-- {
+  color: #ff4d4d;
+}
+[theme="variety"] .tag-item_2erEC.active_1oD-- {
+  color: #8a42ff;
+}
+[theme="documentary"] .tag-item_2erEC.active_1oD-- {
+  color: #4d4dff;
+}
+[theme="game"] .tag-item_2erEC.active_1oD-- {
+  color: #4d4dff;
+}
+[theme="car"] .tag-item_2erEC.active_1oD-- {
+  color: #1a8cff;
+}
+</style>
+<style data-vue-ssr-id="f3f1d306:0">
+.category-wrap_iQLoo {
+  overflow: hidden;
+  padding: 14px 0;
+  padding-left: 24px;
+}
+.category-wrap_iQLoo:hover {
+  border-radius: 12px;
+  background-color: rgba(245, 245, 246, 0.5);
+  background-image: linear-gradient(to bottom, #f5f5f6 0%, #fff 100%);
+}
+.horizontal_1eKyQ {
+  height: 85px;
+}
+.horizontal_1eKyQ .img-wrapper_29V76 {
+  width: 128px;
+  height: 85px;
+}
+.horizontal_1eKyQ .trend_2RttY .trend-icon_1Z3Cd {
+  margin-top: 4px;
+}
+.horizontal_1eKyQ .trend_2RttY .hot-index_1Bl1a {
+  margin: 7px 0;
+}
+.square_1ULM9 {
+  height: 107px;
+}
+.square_1ULM9 .img-wrapper_29V76 {
+  width: 107px;
+  height: 107px;
+}
+.img-wrapper_29V76 {
+  position: relative;
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 80px;
+  height: 107px;
+  margin-right: 16px;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.img-wrapper_29V76 .border_3WfEn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+}
+.img-wrapper_29V76 .index_1Ew5p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 8px 1px 8px 1px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #faa90e;
+  color: #fff;
+}
+.img-wrapper_29V76 .index_1Ew5p.c-index-bg1 {
+  background-color: #fe2d46;
+}
+.img-wrapper_29V76 .index_1Ew5p.c-index-bg2 {
+  background-color: #f60;
+}
+.img-wrapper_29V76 img {
+  width: 100%;
+  height: 100%;
+}
+.content_1YWBm {
+  overflow: hidden;
+  margin: 0 150px 0 96px;
+  font-size: 13px;
+  color: #626675;
+}
+.content_1YWBm .title_dIF3B {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 22px;
+  margin: 8px 0 12px;
+  padding-right: 24px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #222;
+}
+.content_1YWBm .title_dIF3B .c-single-text-ellipsis {
+  display: inline-block;
+  max-width: 100%;
+}
+.content_1YWBm .title_dIF3B .hot-tag_1G080 {
+  position: absolute;
+  top: 2.5px;
+  margin-left: 7px;
+}
+.content_1YWBm .title_dIF3B:hover,
+.content_1YWBm .title_dIF3B.hover_128In {
+  color: #315efb;
+}
+.content_1YWBm .intro_1l0wp {
+  margin-bottom: 8px;
+  line-height: 13px;
+}
+.content_1YWBm .hot-desc_1m_jR {
+  line-height: 20px;
+}
+.content_1YWBm .hot-desc_1m_jR.large_nSuFU {
+  display: inline-block;
+}
+.content_1YWBm .hot-desc_1m_jR.small_Uvkd3 {
+  display: none;
+}
+.content_1YWBm .hot-desc_1m_jR.ellipsis_DupbZ .look-more_3oNWC {
+  margin-left: 6px;
+}
+@media (max-width: 1320px) {
+  .content_1YWBm .hot-desc_1m_jR.large_nSuFU {
+    display: none;
+  }
+  .content_1YWBm .hot-desc_1m_jR.small_Uvkd3 {
+    display: block;
+  }
+}
+.wrapper-narrow .content_1YWBm .hot-desc_1m_jR.large_nSuFU {
+  display: none;
+}
+.wrapper-narrow .content_1YWBm .hot-desc_1m_jR.small_Uvkd3 {
+  display: block;
+}
+.content_1YWBm .hot-desc_1m_jR .look-more_3oNWC {
+  position: static;
+}
+.content_1YWBm .desc_3CTjT {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-right: 70px;
+  line-height: 13px;
+}
+.content_1YWBm .look-more_3oNWC {
+  position: absolute;
+  right: 0;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.content_1YWBm .look-more_3oNWC:hover {
+  color: #315efb;
+}
+.line_3-bzA {
+  float: right;
+  width: 1px;
+  height: 100%;
+  margin-left: 28px;
+}
+.trend_2RttY {
+  float: right;
+  width: 150px;
+  text-align: center;
+}
+.trend_2RttY .trend-icon_1Z3Cd {
+  width: 28px;
+  height: 28px;
+  margin-top: 17px;
+}
+.trend_2RttY .hot-index_1Bl1a {
+  margin: 3px 0 10px 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #9195a3;
+}
+.trend_2RttY .text_1lUwZ {
+  font-size: 13px;
+  line-height: 13px;
+  color: #c4c7ce;
+}
+.trend_2RttY .text-index_39kSZ {
+  font-size: 13px;
+  line-height: 13px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.trend_2RttY .text-index_39kSZ .index-icon_N2V8p {
+  width: 14px;
+  height: 14px;
+  vertical-align: bottom;
+}
+.trend_2RttY .text-index_39kSZ:hover,
+.trend_2RttY .text-index_39kSZ.hover_128In {
+  color: #315efb;
+}
+.hide-icon_3uwiZ {
+  margin-top: 18px;
+}
+.hide-icon_3uwiZ .trend-icon_1Z3Cd {
+  display: none;
+}
+.top-icon_15tUE {
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: 4px;
+}
+</style>
+<style data-vue-ssr-id="b516b632:0">
+.img-wrap_JPOmE {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+}
+.img-wrap_JPOmE img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+<style data-vue-ssr-id="cc97b1be:0">
+.hot-tag_2kHyG {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.c-text-hot_3ZhI9 {
+  background-color: #ff471a;
+}
+.c-text-new_YE8mj {
+  background-color: #ffb111;
+}
+.c-text-fei_2nTcS {
+  background-color: #ff301c;
+}
+.c-text-bao_3s8Nn {
+  background-color: #db1d12;
+}
+.c-text-rec_1poJC {
+  background-color: #3ca6ff;
+}
+.c-text-ecom_3MX4z {
+  background-color: #4e6ef2;
+}
+</style>
+<style data-vue-ssr-id="5dc25958:0">
+.footer_aoJsU {
+  text-align: center;
+  height: 40px;
+  color: #bbb;
+  vertical-align: middle;
+}
+.footer_aoJsU:after {
+  content: '';
+  line-height: 40px;
+}
+.footer_aoJsU a {
+  margin-right: 20px;
+}
+.footer_aoJsU a:hover {
+  color: #222;
+}
+</style>
+<style data-vue-ssr-id="eb641056:0">
+.container_2R1hQ {
+  position: fixed;
+  right: 24px;
+  bottom: 64px;
+  background-color: #fbfbfb;
+  width: 44px;
+  border-radius: 22px;
+  z-index: 10;
+}
+@media screen and (max-width: 1158px) {
+  .container_2R1hQ {
+    display: none;
+  }
+}
+.container_2R1hQ > * {
+  display: block;
+  position: relative;
+  height: 44px;
+  line-height: 44px;
+  width: 44px;
+  border-radius: 22px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container_2R1hQ > *:hover {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.container_2R1hQ > *:hover .side-float-popup {
+  display: block;
+}
+.container_2R1hQ > * .side-float-popup {
+  display: none;
+  position: absolute;
+  width: auto;
+  word-break: keep-all;
+  padding: 5px 16px;
+  bottom: 50%;
+  margin-bottom: -17px;
+  right: 100%;
+  margin-right: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container_2R1hQ .c-icon {
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  height: 24px;
+  color: #626675;
+}
+.container_2R1hQ .c-icon:hover {
+  color: #315efb;
+}
+</style>
+<style data-vue-ssr-id="229c8428:0">
+</style>
+            </head>
+            <body>
+                <div><div id="sanRoot" theme="realtime" class="wrapper c-font-normal rel"><!--s-data:{"data":{"cards":[{"component":"hotList","content":[{"appUrl":"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&sa=fyb_news&rsv_dl=fyb_news","desc":"8月30日上午，国家主席习近平乘专机离开北京，赴比什凯克出席2026年上海合作组织峰会，应吉尔吉斯斯坦总统扎帕罗夫、埃及总统塞西邀请对两国进行国事访问。","hotChange":"same","hotScore":"7904150","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/23498e790ec72673a3e3ee478372308e","index":0,"indexUrl":"","query":"习近平离京出席2026年上合组织峰会","rawUrl":"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A","show":[],"url":"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&sa=fyb_news&rsv_dl=fyb_news","word":"习近平离京出席2026年上合组织峰会","isTop":true},{"appUrl":"https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E&sa=fyb_news&rsv_dl=fyb_news","desc":"8月30日，记者从西藏自治区人民政府新闻办公室召开的新闻发布会获悉，西藏泥石流灾害原因现已查明：北京时间8月26日上午10时52分左右，尼泊尔境内蓝塘里壤峰南坡一条冰川在海拔约5200米处断裂发生冰岩崩，高位快速坠落至4000米左右，冲刷山体形成巨型泥石流。","hotChange":"same","hotScore":"7808490","hotTag":"3","hotTagImg":"https://search-operate.cdn.bcebos.com/54a1ed72d00cd07334860b0509489d8b.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/11ea8db03245db14e0bbfda42c7f0d15","index":0,"indexUrl":"","query":"西藏泥石流灾害原因现已查明","rawUrl":"https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E","show":[],"url":"https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E&sa=fyb_news&rsv_dl=fyb_news","word":"西藏泥石流灾害原因现已查明"},{"appUrl":"https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6&sa=fyb_news&rsv_dl=fyb_news","desc":"最新研究显示，受气候变化影响，南极冰川融化正释放冰封数千年的剧毒水银，自工业化以来释放量激增550%，当地水银沉积速率为全球陆架平均水平两倍。目前超六成南极海鸟体内水银超标，长远或经海洋食物链传导影响人类健康。","hotChange":"same","hotScore":"7712797","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/e7a9211daba63665d536916cd3d2f910","index":1,"indexUrl":"","query":"南极冰川融化正释放剧毒水银","rawUrl":"https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6","show":[],"url":"https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6&sa=fyb_news&rsv_dl=fyb_news","word":"南极冰川融化正释放剧毒水银"},{"appUrl":"https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95&sa=fyb_news&rsv_dl=fyb_news","desc":"30日，西藏自治区就吉隆县“8·26”泥石流灾害举行新闻发布会。8月26日上午，因尼泊尔一侧冰川断裂引发泥石流，冲击吉隆口岸。截至29日18时，灾害造成16人遇难、546人失联。灾害发生后，党中央高度重视，习近平总书记立即作出重要指示，并主持召开中共中央政治局会议，对抢险救援、应急处置等工作提出明确要求。","hotChange":"same","hotScore":"7619273","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/1442c9f2838284936bed95e8f7723e35","index":2,"indexUrl":"","query":"西藏吉隆泥石流灾害新闻发布会实录","rawUrl":"https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95","show":[],"url":"https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95&sa=fyb_news&rsv_dl=fyb_news","word":"西藏吉隆泥石流灾害新闻发布会实录"},{"appUrl":"https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF&sa=fyb_news&rsv_dl=fyb_news","desc":"当地时间8月26日，美国食品药品监督管理局批准口服药达拉西布，用于治疗成人转移性胰腺腺癌。此前Ⅲ期临床试验显示，该药将患者中位总生存期从6.7个月延长至13.2个月。","hotChange":"same","hotScore":"7523530","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/f8f486f64c704080a84ff6afe73b7faa","index":3,"indexUrl":"","query":"癌王胰腺癌迎来里程碑新药","rawUrl":"https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF","show":[],"url":"https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF&sa=fyb_news&rsv_dl=fyb_news","word":"癌王胰腺癌迎来里程碑新药"},{"appUrl":"https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96&sa=fyb_news&rsv_dl=fyb_news","desc":"据港媒报道，梅艳芳的母亲覃美金（“梅妈”）于8月30日去世。覃美金在家中进食时突然陷入昏迷，送医抢救无效后离世。","hotChange":"same","hotScore":"7424909","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/6080f8ea4f931d30ec5c3b2eae703f36","index":4,"indexUrl":"","query":"梅艳芳母亲去世","rawUrl":"https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96","show":[],"url":"https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96&sa=fyb_news&rsv_dl=fyb_news","word":"梅艳芳母亲去世"},{"appUrl":"https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，中疾控发布调查报告：今年2月河南郑州确诊一起肝吸虫病聚集性疫情，5名聚餐食用生淡水鱼片人员全部确诊，其中4人肝功能受损，经驱虫治疗后均已痊愈。","hotChange":"same","hotScore":"7332263","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/52e44057e9c6622ff67057c9c9bf4c3f","index":5,"indexUrl":"","query":"河南5人吃生鱼片全部确诊肝吸虫病","rawUrl":"https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85","show":[],"url":"https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85&sa=fyb_news&rsv_dl=fyb_news","word":"河南5人吃生鱼片全部确诊肝吸虫病"},{"appUrl":"https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&sa=fyb_news&rsv_dl=fyb_news","desc":"今年开学季，大学新生“开学三件套”电脑、手机、平板价格大涨，有家长预算从1万冲上2万，同款笔记本两个月涨逾千元。业内人士分析，涨价根源在于全球存储芯片产能结构性重构，算力需求爆发形成虹吸效应，预计本轮涨价周期较长，未来一年多芯片价格或持续走高。刚需建议咬牙买，非刚需建议先等等。","hotChange":"same","hotScore":"7236456","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/0bd1419f9e0a447e8be7e9278e87b448","index":6,"indexUrl":"","query":"开学三件套齐涨价家长直呼吃不消","rawUrl":"https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88","show":[],"url":"https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&sa=fyb_news&rsv_dl=fyb_news","word":"开学三件套齐涨价家长直呼吃不消"},{"appUrl":"https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news","desc":"今年8月成都车展期间，宝马新世代iX3预售26.99万元起，被视作在华背水一战。今年年初宝马对31款车型大降价，最高降幅超10万元，5系裸车价在部分地区已跌至26万元出头。","hotChange":"same","hotScore":"7137105","hotTag":"3","hotTagImg":"https://search-operate.cdn.bcebos.com/54a1ed72d00cd07334860b0509489d8b.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/4a6095d0435c3736484daeeca36ab4cb","index":7,"indexUrl":"","query":"宝马5系 不到27万了","rawUrl":"https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86","show":[],"url":"https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news","word":"宝马5系 不到27万了"},{"appUrl":"https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85&sa=fyb_news&rsv_dl=fyb_news","desc":"央视近日曝光部分所谓全麦面包仅少量添加麸皮，甚至靠焦糖色素做出深褐色外观。记者走访中国农业科学院作物科学研究所，专家现场演示谷物加工流程指出：全谷物需完整保留种皮、胚芽、胚乳，全麦只是全谷物的一个分支。我国粮食行业标准规定，全谷物含量达25%以上且配料表标明种类及含量的制品才能称全谷物制品。","hotChange":"same","hotScore":"7042594","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/1f580d99f957bf7d02a3215ccd77fbdc","index":8,"indexUrl":"","query":"央视曝光焦糖色素假全麦面包","rawUrl":"https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85","show":[],"url":"https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85&sa=fyb_news&rsv_dl=fyb_news","word":"央视曝光焦糖色素假全麦面包"},{"appUrl":"https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98&sa=fyb_news&rsv_dl=fyb_news","desc":"8月30日，厦门市联合调查组通报“使用敌敌畏为餐饮门店消杀问题”调查结果：涉事企业厦门绿林森环境科技有限公司行为涉嫌违法违规，公安机关已对6名犯罪嫌疑人依法刑事拘留，案件正在进一步侦办中。","hotChange":"same","hotScore":"6947768","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/fa5c86b2a06c21a6730218a8f510cbe4","index":9,"indexUrl":"","query":"敌敌畏消杀事件6人被刑拘","rawUrl":"https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98","show":[],"url":"https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98&sa=fyb_news&rsv_dl=fyb_news","word":"敌敌畏消杀事件6人被刑拘"},{"appUrl":"https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD&sa=fyb_news&rsv_dl=fyb_news","desc":"入秋桂圆上市季，今天就给大家一次性针对桂圆“泡药水致癌”、“打针增甜”、“同食海鲜中毒”等六大常见谣言逐条辟谣，同时整理超实用的挑选食用避坑干货，帮大家科学吃桂圆，安心享滋补！","hotChange":"same","hotScore":"6854542","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/a0d4ab91890671c02d96ccc8a2860b3c","index":10,"indexUrl":"","query":"桂圆“打针增甜”不可能","rawUrl":"https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD","show":[],"url":"https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD&sa=fyb_news&rsv_dl=fyb_news","word":"桂圆“打针增甜”不可能"},{"appUrl":"https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，浙江嘉兴一司机开车时遭遇蛇从天而降砸中引擎盖，蛇随后跑入草丛消失。当事人称蛇是从树上掉下来的。","hotChange":"same","hotScore":"6752984","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/c7467645a08cf84c06fb2860ebc5b78c","index":11,"indexUrl":"","query":"一条蛇从天而降砸中汽车引擎盖","rawUrl":"https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96","show":[],"url":"https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96&sa=fyb_news&rsv_dl=fyb_news","word":"一条蛇从天而降砸中汽车引擎盖"},{"appUrl":"https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA&sa=fyb_news&rsv_dl=fyb_news","desc":"8月24日，四川内江16岁女孩遭遇车祸，次日不幸离世。事发后，她随身携带的手机遗失在事故现场，遭人捡走刷机。母亲表示，手机内存有女儿生活照片，想留个念想，如今找回已无意义。","hotChange":"same","hotScore":"6663436","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/a31e77f039ee60ea989666373b47ffa4","index":12,"indexUrl":"","query":"16岁少女车祸离世 手机被人捡走刷机","rawUrl":"https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA","show":[],"url":"https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA&sa=fyb_news&rsv_dl=fyb_news","word":"16岁少女车祸离世 手机被人捡走刷机"},{"appUrl":"https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，杭州52岁秦先生在田里被毒蛇咬伤左腿后，试图用锄头抓蛇，结果在搏斗中腿部再次被咬。妻子拨打120将其送医，经注射抗蛇毒血清与治疗后已康复出院。","hotChange":"same","hotScore":"6563503","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/5ef0ad30ef8c7bd79a3df2359fcc10a0","index":13,"indexUrl":"","query":"男子被毒蛇咬伤后与蛇搏斗又被咬一口","rawUrl":"https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3","show":[],"url":"https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3&sa=fyb_news&rsv_dl=fyb_news","word":"男子被毒蛇咬伤后与蛇搏斗又被咬一口"},{"appUrl":"https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97&sa=fyb_news&rsv_dl=fyb_news","desc":"","hotChange":"same","hotScore":"6474669","hotTag":"0","img":"https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg","index":14,"indexUrl":"","query":"尼泊尔冰崩是因为全球变暖吗","rawUrl":"https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97","show":[],"url":"https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97&sa=fyb_news&rsv_dl=fyb_news","word":"尼泊尔冰崩是因为全球变暖吗"},{"appUrl":"https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97&sa=fyb_news&rsv_dl=fyb_news","desc":"8月27日，记者走进青岛崂山区调研国信三文鱼产业链。今年5月，“国信1号2-2”养殖工船首批三文鱼上市，出舱12吨，成活率97.3%，零寄生虫、零抗生素、零药残，达生食级标准，系全球首次规模化商业化产出。","hotChange":"same","hotScore":"6382306","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/10448a6200b742117458a09f5d752aa2","index":15,"indexUrl":"","query":"“三文鱼自由”要来了吗","rawUrl":"https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97","show":[],"url":"https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97&sa=fyb_news&rsv_dl=fyb_news","word":"“三文鱼自由”要来了吗"},{"appUrl":"https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news","desc":"8月29日，2026-2027赛季德国杯1/8决赛，樊振东所属杜塞尔多夫俱乐部1-3不敌奥克森豪森俱乐部遗憾出局；樊振东第二盘胜莫维利亚努，第四盘鏖战五局惜败户上隼辅。此前8月20日，赛事官宣引入全国院线直播，预售票房破百万，上海、深圳、杭州、成都等地开票即秒售罄。","hotChange":"same","hotScore":"6280116","hotTag":"3","hotTagImg":"https://search-operate.cdn.bcebos.com/54a1ed72d00cd07334860b0509489d8b.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/54c3c458731e88231e8430b585251c93","index":16,"indexUrl":"","query":"樊振东单日票房超百万","rawUrl":"https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87","show":[],"url":"https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news","word":"樊振东单日票房超百万"},{"appUrl":"https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E&sa=fyb_news&rsv_dl=fyb_news","desc":"今年西北太平洋和南海已生成23余个台风，其中5个达超强台风级别。专家解读称，夏季海洋积蓄充足热量，加之今年厄尔尼诺快速发展致赤道中东太平洋海温异常偏高，为远海台风生成提供有利条件。","hotChange":"same","hotScore":"6182635","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/a9ad206fc67101b1af998d24e5abd3e5","index":17,"indexUrl":"","query":"厄尔尼诺今年已催生23个台风","rawUrl":"https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E","show":[],"url":"https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E&sa=fyb_news&rsv_dl=fyb_news","word":"厄尔尼诺今年已催生23个台风"},{"appUrl":"https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news","desc":"","hotChange":"same","hotScore":"6095511","hotTag":"0","img":"https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg","index":18,"indexUrl":"","query":"宋亚东一夜涨粉超12万","rawUrl":"https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87","show":[],"url":"https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news","word":"宋亚东一夜涨粉超12万"},{"appUrl":"https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C&sa=fyb_news&rsv_dl=fyb_news","desc":"8月29日晚，清华大学2026级本科新生踏上20公里夜间军训拉练征程。清华大学曾介绍，军训拉练是清华大学一直以来的优良传统，拉练不仅能够鼓舞新生的士气，激发新生的斗志，更能培养清华学子吃苦耐劳的优秀品质。","hotChange":"same","hotScore":"6002103","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/d4d07e6a6fd1598ebc4cb2d981789b54","index":19,"indexUrl":"","query":"清华新生凌晨拉练20公里","rawUrl":"https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C","show":[],"url":"https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C&sa=fyb_news&rsv_dl=fyb_news","word":"清华新生凌晨拉练20公里"},{"appUrl":"https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news","desc":"据灯塔专业版数据，截至8月30日11时58分，经典影片《肖申克的救赎》内地票房突破1000万元。","hotChange":"same","hotScore":"5900825","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/31c80283ea2540988c4594be97d45c84","index":20,"indexUrl":"","query":"《肖申克的救赎》内地票房破1000万","rawUrl":"https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87","show":[],"url":"https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news","word":"《肖申克的救赎》内地票房破1000万"},{"appUrl":"https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，汕头70岁老人被诱导至妍妃梵美容所花5万元做医美。术中老人因痛求停遭强行按住继续，且术前未经体检。目前老人面部肿胀、精神出现异常，家人已停工照顾。","hotChange":"same","hotScore":"5791994","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/c6ac46d17470986dfbc6276c7288ea62","index":21,"indexUrl":"","query":"七旬老人花5万做医美后精神抑郁","rawUrl":"https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81","show":[],"url":"https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81&sa=fyb_news&rsv_dl=fyb_news","word":"七旬老人花5万做医美后精神抑郁"},{"appUrl":"https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，有网友向交通运输部留言建议取消ETC设备，直接绑定支付账号实现扫车牌通行，免去安装办理的麻烦。交通运输部回应称，将推广“手机+”无卡便捷通行模式。","hotChange":"same","hotScore":"5707379","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/745d62b6bfad58f3100f7e0e51cd632a","index":22,"indexUrl":"","query":"官方回应“取消ETC” 读懂车主真诉求","rawUrl":"https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82","show":[],"url":"https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82&sa=fyb_news&rsv_dl=fyb_news","word":"官方回应“取消ETC” 读懂车主真诉求"},{"appUrl":"https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，上海开往北京的G12次列车抵达北京南站后，上海铁路公安处乘警支队民警巡查车厢时，发现一只被遗落的行李箱。经开箱清点，箱内装有33万元现金及6件黄金饰品，总价值超50万元。民警根据箱内身份证件联系上失主，将全部财物归还。","hotChange":"same","hotScore":"5622069","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/6067ed6812b7abab944103e68c707d5a","index":23,"indexUrl":"","query":"空车厢行李箱中装33万现金6件金饰","rawUrl":"https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0","show":[],"url":"https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0&sa=fyb_news&rsv_dl=fyb_news","word":"空车厢行李箱中装33万现金6件金饰"},{"appUrl":"https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，一名新疆学生返校时带了一整箱约三四十个馕，引发室友震惊。馕为家人亲手制作，包含核桃馕、辣皮子馕等多种口味。室友称其可能是为节省生活费，并介绍在新疆馕保质期较长，可达一两个月。","hotChange":"same","hotScore":"5509764","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/73dcf1d4bce2a0a5dd940315da0a05fb","index":24,"indexUrl":"","query":"新疆室友行李箱装30个馕返校","rawUrl":"https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1","show":[],"url":"https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1&sa=fyb_news&rsv_dl=fyb_news","word":"新疆室友行李箱装30个馕返校"},{"appUrl":"https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，苹果折叠屏iPhone 18 Fold或推出中国红限定配色。若消息属实，这将是苹果折叠屏系列首次推出专属配色，也是iPhone产品线中较为高调的色彩选择之一。","hotChange":"same","hotScore":"5430209","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/38d180fcb57c8fd395027e4bc1d82cc9","index":25,"indexUrl":"","query":"折叠屏iPhone或推出中国红限定版","rawUrl":"https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88","show":[],"url":"https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88&sa=fyb_news&rsv_dl=fyb_news","word":"折叠屏iPhone或推出中国红限定版"},{"appUrl":"https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD&sa=fyb_news&rsv_dl=fyb_news","desc":"当地时间8月29日，塞尔维亚总统武契奇出席中塞合建机器人工厂投产仪式，该工厂为欧洲首座人形机器人量产基地。武契奇亲自下场当守门员与机器人“过招”，他在致辞中感谢中方支持。","hotChange":"same","hotScore":"5318516","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/90680858642095b19f4358efc2688daa","index":26,"indexUrl":"","query":"武契奇：感谢中国","rawUrl":"https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD","show":[],"url":"https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD&sa=fyb_news&rsv_dl=fyb_news","word":"武契奇：感谢中国"},{"appUrl":"https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1&sa=fyb_news&rsv_dl=fyb_news","desc":"","hotChange":"same","hotScore":"5220053","hotTag":"3","hotTagImg":"https://search-operate.cdn.bcebos.com/54a1ed72d00cd07334860b0509489d8b.png","img":"https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg","index":27,"indexUrl":"","query":"尼泊尔泥石流灾害已致752人死亡","rawUrl":"https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1","show":[],"url":"https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1&sa=fyb_news&rsv_dl=fyb_news","word":"尼泊尔泥石流灾害已致752人死亡"},{"appUrl":"https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E&sa=fyb_news&rsv_dl=fyb_news","desc":"","hotChange":"same","hotScore":"5140890","hotTag":"0","img":"https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg","index":28,"indexUrl":"","query":"伊朗最高领袖发表最新书面声明","rawUrl":"https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E","show":[],"url":"https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E&sa=fyb_news&rsv_dl=fyb_news","word":"伊朗最高领袖发表最新书面声明"},{"appUrl":"https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98&sa=fyb_news&rsv_dl=fyb_news","desc":"开学季不少孩子出现抗拒返校情绪，部分优等生因背负“不能输”的高期待、惧怕重启校园社交产生返校恐惧。专家杜娜针对这类现象，从成因和家长应对方法层面给出了专业解答，引导家长科学疏导孩子的开学焦虑。","hotChange":"same","hotScore":"5040632","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/ea7803f5364a79adc132c707bd903bdf","index":29,"indexUrl":"","query":"孩子不想开学不全是孩子的问题","rawUrl":"https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98","show":[],"url":"https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98&sa=fyb_news&rsv_dl=fyb_news","word":"孩子不想开学不全是孩子的问题"},{"appUrl":"https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，我国成功在超过40万公里的地月距离上建立起双向激光链路，首次实现地月双向高速激光通信。这标志着我国空间激光通信正式从近地轨道迈入地月空间。","hotChange":"same","hotScore":"4942221","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/ae51622631000c616de75b7f7b0ff744","index":30,"indexUrl":"","query":"中国首次实现地月双向高速激光通信","rawUrl":"https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1","show":[],"url":"https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1&sa=fyb_news&rsv_dl=fyb_news","word":"中国首次实现地月双向高速激光通信"},{"appUrl":"https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，娱乐行业分析指出，中国电影市场进入寒冬后，投资1亿以上的项目将寥寥无几，《流浪地球3》或成大制作电影绝唱。分析称，如今投资超8000万即可称超级大片，2000万上下将成为电影投资主流。","hotChange":"same","hotScore":"4843777","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/68992ea4f04e444bd4c3d8707cb56882","index":31,"indexUrl":"","query":"未来很难有投资1亿+的大片了","rawUrl":"https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86","show":[],"url":"https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news","word":"未来很难有投资1亿+的大片了"},{"appUrl":"https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news","desc":"今夏各类凉感服饰、床品消费走热，8月30日国家标准委正式发布《纺织品 吸湿降温性能的检测和评价》国标，2027年2月1日起实施，将为这类功能纺织品的全流程研发、生产与检测评价提供统一规范依据。","hotChange":"same","hotScore":"4758578","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/d67338fee88c2ed8e3c5a19a6ace57d2","index":32,"indexUrl":"","query":"凉感服饰国标来了","rawUrl":"https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86","show":[],"url":"https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news","word":"凉感服饰国标来了"},{"appUrl":"https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8&sa=fyb_news&rsv_dl=fyb_news","desc":"开学啦！校园里满是扛着行李的爸爸。有父亲从广西开13个小时的车送孩子来武汉上学，“孩子很钟意武汉这座大城市”。","hotChange":"same","hotScore":"4646647","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/82a6c9480334e159152e61d1df0f0853","index":33,"indexUrl":"","query":"开学季校园里满是扛着行李的爸爸","rawUrl":"https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8","show":[],"url":"https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8&sa=fyb_news&rsv_dl=fyb_news","word":"开学季校园里满是扛着行李的爸爸"},{"appUrl":"https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，洪秀柱痛批“北京没有冰箱”等说法反智无知，质疑民进党对此类言论不加制止、纵容传播，直指这是民进党洗脑台湾百姓的结果。此前“大陆没有茶叶蛋”“高铁没靠背”等言论已引发争议，她直言若仍有人相信，要么完全被洗脑，要么脑筋已坏掉。","hotChange":"same","hotScore":"4573716","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/bbb331bbbecfb8fa485efffa329979ab","index":34,"indexUrl":"","query":"洪秀柱批“北京没有冰箱”反智","rawUrl":"https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA","show":[],"url":"https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA&sa=fyb_news&rsv_dl=fyb_news","word":"洪秀柱批“北京没有冰箱”反智"},{"appUrl":"https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，小沈阳女儿沈佳润晒出跳新歌《mamapapa》手势舞的视频。画面中，沈佳润打扮休闲又少女，对着镜头比心、wink，俏皮可爱。","hotChange":"same","hotScore":"4453007","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/71869c1054be450e90ff1a9220e5ea76","index":35,"indexUrl":"","query":"小沈阳女儿跳新歌手势舞","rawUrl":"https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E","show":[],"url":"https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E&sa=fyb_news&rsv_dl=fyb_news","word":"小沈阳女儿跳新歌手势舞"},{"appUrl":"https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92&sa=fyb_news&rsv_dl=fyb_news","desc":"当地时间8月30日，在约旦河西岸，蒙面以色列定居者袭击NBC新闻团队及一名巴勒斯坦妇女，致记者、摄像师、制片人等多名人员受伤，妇女被红新月会送医。","hotChange":"same","hotScore":"4363017","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/efc30b616dad1278b4739c01cb5ddc58","index":36,"indexUrl":"","query":"以色列定居者蒙面持棍棒袭击美媒","rawUrl":"https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92","show":[],"url":"https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92&sa=fyb_news&rsv_dl=fyb_news","word":"以色列定居者蒙面持棍棒袭击美媒"},{"appUrl":"https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93&sa=fyb_news&rsv_dl=fyb_news","desc":"8月29日晚，在西藏吉隆县泥石流救灾中，无人机监测发现普热普强藏布堰塞湖下游2.8公里处发生山体滑坡并形成新堰塞体。应急管理部迅速组织专家研判，并已将吉隆口岸附近救援人员转移至安全地带。","hotChange":"same","hotScore":"4261906","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/fac063437e308f0e0c677f79b0a309b4","index":37,"indexUrl":"","query":"吉隆泥石流救灾发现新堰塞体","rawUrl":"https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93","show":[],"url":"https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93&sa=fyb_news&rsv_dl=fyb_news","word":"吉隆泥石流救灾发现新堰塞体"},{"appUrl":"https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，中国作协发布《2025中国网络文学蓝皮书》：截至2025年底，中国网文累计向海外输出超13万部，海外营收突破80亿元。《诡秘之主》被译成10余种语言成现象级爆款，改编微短剧《一品布衣》海外热播。","hotChange":"same","hotScore":"4159007","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/8f4e66a55591ab6639373b0b2f00a07e","index":38,"indexUrl":"","query":"这些中国网文和电视剧在海外成爆款","rawUrl":"https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE","show":[],"url":"https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE&sa=fyb_news&rsv_dl=fyb_news","word":"这些中国网文和电视剧在海外成爆款"},{"appUrl":"https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，兰州大学迎接2026级新生，为新生送上一碗牛肉拉面作为见面礼。","hotChange":"same","hotScore":"4098862","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/3ed67872611c186b82ad536915f86c73","index":39,"indexUrl":"","query":"兰州大学用“一碗牛肉面”迎接新生","rawUrl":"https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F","show":[],"url":"https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F&sa=fyb_news&rsv_dl=fyb_news","word":"兰州大学用“一碗牛肉面”迎接新生"},{"appUrl":"https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93&sa=fyb_news&rsv_dl=fyb_news","desc":"8月30日，英超第2轮，热刺主场迎战纽卡斯尔联，下半场被埃兰加和维萨连入两球。热刺今夏豪掷超3亿英镑引援，却遭遇52年来最差开局：两战皆负，进0球丢5球，暂列倒数第一。","hotChange":"same","hotScore":"3983695","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/8aa3c0183a4bf2b887b03f64c12377fe","index":40,"indexUrl":"","query":"热刺花最多的钱 遭最毒的打","rawUrl":"https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93","show":[],"url":"https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93&sa=fyb_news&rsv_dl=fyb_news","word":"热刺花最多的钱 遭最毒的打"},{"appUrl":"https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，广西玉林市田家炳中学一则招聘小卖部工作人员需经过笔试、面试公告引发关注。该岗位招聘人数1人，应聘者需没有犯罪记录，文化程度为高中及以上，男性年龄在50岁以下，女性为45岁以下，有相关工作经验者优先。校方回应：岗位非编制，报名已结束。","hotChange":"same","hotScore":"3906554","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/56afe49b59a88050a829fa5e76097f7a","index":41,"indexUrl":"","query":"校方回应小卖部招人需笔试面试","rawUrl":"https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95","show":[],"url":"https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95&sa=fyb_news&rsv_dl=fyb_news","word":"校方回应小卖部招人需笔试面试"},{"appUrl":"https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF&sa=fyb_news&rsv_dl=fyb_news","desc":"西藏吉隆口岸泥石流灾区的夜空升起了一盏灯，谢谢全力保障的电力人，致敬昼夜抢险的救援人。","hotChange":"same","hotScore":"3773751","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/0e4d074d53a257e74b6c9ea35bc73806","index":42,"indexUrl":"","query":"泥石流灾区夜空升起一盏灯","rawUrl":"https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF","show":[],"url":"https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF&sa=fyb_news&rsv_dl=fyb_news","word":"泥石流灾区夜空升起一盏灯"},{"appUrl":"https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，2026科学智能大会上，多位科学家表示，AI正大幅提升科研效率：全球地质图整合、小麦基因组图谱绘制等原本耗时数月的工作如今大幅提速。有学者认为21世纪内AI会催生1万个爱因斯坦，也有学者认为AI仅是辅助工具，不可能具有原始创新能力。","hotChange":"same","hotScore":"3701514","hotTag":"1","hotTagImg":"https://search-operate.cdn.bcebos.com/42e626c5469cc4cd3b91131bcfe53d44.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/1ff09690cdcc84a5c3ceb755b29edf82","index":43,"indexUrl":"","query":"21世纪AI会催生1万个爱因斯坦吗","rawUrl":"https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97","show":[],"url":"https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97&sa=fyb_news&rsv_dl=fyb_news","word":"21世纪AI会催生1万个爱因斯坦吗"},{"appUrl":"https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B&sa=fyb_news&rsv_dl=fyb_news","desc":"2007年，江西萍乡4岁的黄宏鑫身患重病，在湘雅医院被龙隆教授团队成功救治。心怀感恩的他立志从医，多年苦读圆梦考研，成为湘雅神经外科2026级研究生，如今轮岗学习，与当年的救命医生成为同事。","hotChange":"same","hotScore":"3593817","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/8f8af403826a5ccf1f23674e4edb0b1a","index":44,"indexUrl":"","query":"19年前被救的男孩和救命医生成同事","rawUrl":"https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B","show":[],"url":"https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B&sa=fyb_news&rsv_dl=fyb_news","word":"19年前被救的男孩和救命医生成同事"},{"appUrl":"https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83&sa=fyb_news&rsv_dl=fyb_news","desc":"8月29日，斯诺克武汉公开赛上，小将常冰玉10比7战胜赵心童夺生涯首冠。赛后他哽咽感谢父母卖房辞职陪练多年，称“他们真的很不容易”。","hotChange":"same","hotScore":"3513227","hotTag":"3","hotTagImg":"https://search-operate.cdn.bcebos.com/54a1ed72d00cd07334860b0509489d8b.png","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/efd241398ad2d0d7ec4305412e05ea7a","index":45,"indexUrl":"","query":"父母卖房辞职支持常冰玉练球","rawUrl":"https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83","show":[],"url":"https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83&sa=fyb_news&rsv_dl=fyb_news","word":"父母卖房辞职支持常冰玉练球"},{"appUrl":"https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85&sa=fyb_news&rsv_dl=fyb_news","desc":"近日，针对德国杯1/8淘汰赛樊振东2比3不敌户上隼辅一事，教练吴敬平发文回应。他表示对手超水平搏杀，樊振东在0比2落后下连追两局，最终因决胜局11比10领先时发球出台被抢拉得分导致输球。","hotChange":"same","hotScore":"3411185","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/2b3abbdce44aa88ea688e5020227b0cf","index":46,"indexUrl":"","query":"吴敬平回应樊振东输户上隼辅","rawUrl":"https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85","show":[],"url":"https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85&sa=fyb_news&rsv_dl=fyb_news","word":"吴敬平回应樊振东输户上隼辅"},{"appUrl":"https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85&sa=fyb_news&rsv_dl=fyb_news","desc":"杜塞主帅海斯特透露樊振东输球隐情，樊振东现阶段恢复过程异常艰难，因休赛期缺少系统训练与正式赛事，且在海外需独自处理训练和生活，后勤保障大不如前。输球不全是实力问题，调整需要时间，期待他慢慢找回最佳状态。","hotChange":"same","hotScore":"3321473","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/3779c28cf5176b321955eed4fdbdc48a","index":47,"indexUrl":"","query":"杜塞主帅谈樊振东输球隐情","rawUrl":"https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85","show":[],"url":"https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85&sa=fyb_news&rsv_dl=fyb_news","word":"杜塞主帅谈樊振东输球隐情"},{"appUrl":"https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3&sa=fyb_news&rsv_dl=fyb_news","desc":"","hotChange":"same","hotScore":"3208261","hotTag":"0","img":"https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg","index":48,"indexUrl":"","query":"萌娃首战艺术体操边哭边跳","rawUrl":"https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3","show":[],"url":"https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3&sa=fyb_news&rsv_dl=fyb_news","word":"萌娃首战艺术体操边哭边跳"},{"appUrl":"https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0&sa=fyb_news&rsv_dl=fyb_news","desc":"","hotChange":"same","hotScore":"3146733","hotTag":"0","img":"https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg","index":49,"indexUrl":"","query":"常冰玉回应击败赵心童获首冠","rawUrl":"https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0","show":[],"url":"https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0&sa=fyb_news&rsv_dl=fyb_news","word":"常冰玉回应击败赵心童获首冠"}],"more":0,"moreAppUrl":"https://top.baidu.com/board?tab=realtime&sa=fyb_realtime","moreUrl":"https://top.baidu.com/board?tab=realtime&sa=fyb_realtime","text":"热搜榜","topContent":[{"appUrl":"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&sa=fyb_news&rsv_dl=fyb_news","desc":"8月30日上午，国家主席习近平乘专机离开北京，赴比什凯克出席2026年上海合作组织峰会，应吉尔吉斯斯坦总统扎帕罗夫、埃及总统塞西邀请对两国进行国事访问。","hotChange":"same","hotScore":"7904150","hotTag":"0","img":"https://fyb-2.cdn.bcebos.com/hotboard_image/23498e790ec72673a3e3ee478372308e","index":0,"indexUrl":"","query":"习近平离京出席2026年上合组织峰会","rawUrl":"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A","show":[],"url":"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&sa=fyb_news&rsv_dl=fyb_news","word":"习近平离京出席2026年上合组织峰会"}],"typeName":"realtime","updateTime":"1788081516"}],"curBoardName":"热搜榜","logid":"1273618410","platform":"pc","tabBoard":[{"index":0,"text":"首页","typeName":"homepage"},{"index":1,"text":"热搜榜","typeName":"realtime"},{"index":2,"text":"小说榜","typeName":"novel"},{"index":3,"text":"电影榜","typeName":"movie"},{"index":4,"text":"电视剧榜","typeName":"teleplay"}],"tag":[{"typeName":"category","text":"类型","content":["全部类型"],"curIndex":0}]},"view":"v-category","tab":"realtime","config":{},"rootWrapperClass":"wrapper","showScrollToTop":false}--> <div class="bg-wrapper"> <!--s-frag--> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/hot-bg_7a3003293498c2a12c70f9a2f4d7e4a1.png"> <img class="default" src="//fyb-pc-static.cdn.bcebos.com/static/asset/default-hot-bg_22bf1768d266baa86962bfcdf231bec9.png"> <!--/s-frag--> </div> <header class="responsive-wrapper header_3wayL"> <div class="c-font-normal navi-top-wrapper_20foP rel"> <div class="navi-top-left_1Zuqa abs"> <a class="navi-item_2z3vU" href="http://news.baidu.com" target="_blank">新闻</a> <a class="navi-item_2z3vU" href="https://www.hao123.com" target="_blank">hao123</a> <a class="navi-item_2z3vU" href="http://map.baidu.com" target="_blank">地图</a> <a class="navi-item_2z3vU" href="https://haokan.baidu.com" target="_blank">视频</a> <a class="navi-item_2z3vU" href="http://tieba.baidu.com" target="_blank">贴吧</a> <a class="navi-item_2z3vU" href="http://xueshu.baidu.com" target="_blank">学术</a> <a class="navi-item_2z3vU" href="http://www.baidu.com/more/" target="_blank">更多</a> </div> <div class="navi-top-right_33qd2 abs"> <a class="navi-item_2z3vU" href="http://www.baidu.com/" target="_blank">百度首页</a> <!--s-frag--> <a class="c-btn c-btn-mini login-btn_2CUrM">登录</a> <div class="login-form-wrapper_1E7lG c-floating-box"> <div id="login1"></div> </div> <!--/s-frag--> </div> </div> <div class="container tab-wrap_23sEv"> <div class="logo-trends-wrapper_150M5"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/homepage@2x_daaf4f0f6cf971ed6d9329b30afdf438.png"> </div> <div class="c-theme-color tabs-wrap_3Ac9n"> <a href="/board?tab=homepage" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_homepage&quot;}"> <span>首页</span> </a><a href="/board?tab=realtime" class="tab-item_17MbK active" data-click="{&quot;pos&quot;:&quot;tab_realtime&quot;}"> <span>热搜</span> </a><a href="/board?tab=novel" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_novel&quot;}"> <span>小说</span> </a><a href="/board?tab=movie" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_movie&quot;}"> <span>电影</span> </a><a href="/board?tab=teleplay" class="tab-item_17MbK" data-click="{&quot;pos&quot;:&quot;tab_teleplay&quot;}"> <span>电视剧</span> </a> </div> </div> <div id="tabs" class="tabs-wrapper_7ri4o"> <div class="container tabs-container__LAaf c-theme-color"> <a href="/board?tab=homepage" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_homepage&quot;}"> <span>首页</span>  </a><a href="/board?tab=realtime" class="tab_3QhDq active" data-click="{&quot;pos&quot;:&quot;tab_realtime&quot;}"> <span>热搜</span> <div class="active-underline-wrapper_Lv1CQ c-theme-color-bg"></div> </a><a href="/board?tab=novel" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_novel&quot;}"> <span>小说</span>  </a><a href="/board?tab=movie" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_movie&quot;}"> <span>电影</span>  </a><a href="/board?tab=teleplay" class="tab_3QhDq" data-click="{&quot;pos&quot;:&quot;tab_teleplay&quot;}"> <span>电视剧</span>  </a> </div> </div> </header> <main class="rel container_2VTvm"> <div class="responsive-wrapper left-side-wrapper_1kYr7"> <div class="container rel"> <div class="left-side_1rpOJ c-font-normal"> <div class="abs left-side-bg-wrapper_23qvy"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/hot_5ea7de29236d15af56034c6c95164969.png"> </div> <div class="side-title_1wfo5 c-theme-color"> 热搜榜 </div> <!--s-frag--> <div class="tags-wrap_InWap"> <div class="c-color-text title_bOM2Q"> 类型 </div> <div class="tags_1mjZF"> <div class="tag-item_2erEC active_1oD--"> 全部类型 </div> </div> </div>  <!--/s-frag--> </div> </div> </div> <div class="container right-container_2EFJr"> <div class="container-bg_lQ801"> <div class="path-wrapper_3euWM"> <span class="c-font-normal c-color-gray2"> 热搜榜 </span><span class="c-font-normal c-color-gray2">  / 全部类型 </span> </div>   <div style="margin-bottom:20px"> <div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg1"> <img class="top-icon_15tUE" src="//fyb-pc-static.cdn.bcebos.com/static/asset/whitet@2x_0fd85d7c9f42d73571bd1168903afb74.png" alt="true">  </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/23498e790ec72673a3e3ee478372308e?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7904150 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  习近平离京出席2026年上合组织峰会 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月30日上午，国家主席习近平乘专机离开北京，赴比什凯克出席2026年上海合作组织峰会，应吉尔吉斯斯坦总统扎帕罗夫、埃及... <a href="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月30日上午，国家主席习近平乘专机离开北京，赴比什凯克出席2026年上海合作组织峰会，应吉尔吉斯斯坦总统扎帕罗夫、埃及总统塞西邀请对两国进行国事访... <a href="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E4%BA%AC%E5%87%BA%E5%B8%AD2026%E5%B9%B4%E4%B8%8A%E5%90%88%E7%BB%84%E7%BB%87%E5%B3%B0%E4%BC%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg1">  1 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/11ea8db03245db14e0bbfda42c7f0d15?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7808490 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  西藏泥石流灾害原因现已查明 </div> <div class="c-text c-text-hot_3ZhI9 hot-tag_1G080"> 热 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月30日，记者从西藏自治区人民政府新闻办公室召开的新闻发布会获悉，西藏泥石流灾害原因现已查明：北京时间8月26日上午1... <a href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月30日，记者从西藏自治区人民政府新闻办公室召开的新闻发布会获悉，西藏泥石流灾害原因现已查明：北京时间8月26日上午10时52分左右，尼泊尔境内蓝... <a href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E7%8E%B0%E5%B7%B2%E6%9F%A5%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg2">  2 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/e7a9211daba63665d536916cd3d2f910?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7712797 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  南极冰川融化正释放剧毒水银 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 最新研究显示，受气候变化影响，南极冰川融化正释放冰封数千年的剧毒水银，自工业化以来释放量激增550%，当地水银沉积速率为... <a href="https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 最新研究显示，受气候变化影响，南极冰川融化正释放冰封数千年的剧毒水银，自工业化以来释放量激增550%，当地水银沉积速率为全球陆架平均水平两倍。目前超... <a href="https://www.baidu.com/s?wd=%E5%8D%97%E6%9E%81%E5%86%B0%E5%B7%9D%E8%9E%8D%E5%8C%96%E6%AD%A3%E9%87%8A%E6%94%BE%E5%89%A7%E6%AF%92%E6%B0%B4%E9%93%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg3">  3 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/1442c9f2838284936bed95e8f7723e35?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7619273 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  西藏吉隆泥石流灾害新闻发布会实录 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 30日，西藏自治区就吉隆县“8·26”泥石流灾害举行新闻发布会。8月26日上午，因尼泊尔一侧冰川断裂引发泥石流，冲击吉隆... <a href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 30日，西藏自治区就吉隆县“8·26”泥石流灾害举行新闻发布会。8月26日上午，因尼泊尔一侧冰川断裂引发泥石流，冲击吉隆口岸。截至29日18时，灾害... <a href="https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%9E%E5%BD%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg4">  4 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/f8f486f64c704080a84ff6afe73b7faa?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7523530 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  癌王胰腺癌迎来里程碑新药 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 当地时间8月26日，美国食品药品监督管理局批准口服药达拉西布，用于治疗成人转移性胰腺腺癌。此前Ⅲ期临床试验显示，该药将患... <a href="https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 当地时间8月26日，美国食品药品监督管理局批准口服药达拉西布，用于治疗成人转移性胰腺腺癌。此前Ⅲ期临床试验显示，该药将患者中位总生存期从6.7个月延... <a href="https://www.baidu.com/s?wd=%E7%99%8C%E7%8E%8B%E8%83%B0%E8%85%BA%E7%99%8C%E8%BF%8E%E6%9D%A5%E9%87%8C%E7%A8%8B%E7%A2%91%E6%96%B0%E8%8D%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg5">  5 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/6080f8ea4f931d30ec5c3b2eae703f36?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7424909 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  梅艳芳母亲去世 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 "> 据港媒报道，梅艳芳的母亲覃美金（“梅妈”）于8月30日去世。覃美金在家中进食时突然陷入昏迷，送医抢救无效后离世。 <a href="https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 据港媒报道，梅艳芳的母亲覃美金（“梅妈”）于8月30日去世。覃美金在家中进食时突然陷入昏迷，送医抢救无效后离世。 <a href="https://www.baidu.com/s?wd=%E6%A2%85%E8%89%B3%E8%8A%B3%E6%AF%8D%E4%BA%B2%E5%8E%BB%E4%B8%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg6">  6 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/52e44057e9c6622ff67057c9c9bf4c3f?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7332263 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  河南5人吃生鱼片全部确诊肝吸虫病 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，中疾控发布调查报告：今年2月河南郑州确诊一起肝吸虫病聚集性疫情，5名聚餐食用生淡水鱼片人员全部确诊，其中4人肝功能... <a href="https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 近日，中疾控发布调查报告：今年2月河南郑州确诊一起肝吸虫病聚集性疫情，5名聚餐食用生淡水鱼片人员全部确诊，其中4人肝功能受损，经驱虫治疗后均已痊愈。 <a href="https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%975%E4%BA%BA%E5%90%83%E7%94%9F%E9%B1%BC%E7%89%87%E5%85%A8%E9%83%A8%E7%A1%AE%E8%AF%8A%E8%82%9D%E5%90%B8%E8%99%AB%E7%97%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg7">  7 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/0bd1419f9e0a447e8be7e9278e87b448?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7236456 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  开学三件套齐涨价家长直呼吃不消 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 今年开学季，大学新生“开学三件套”电脑、手机、平板价格大涨，有家长预算从1万冲上2万，同款笔记本两个月涨逾千元。业内人士... <a href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 今年开学季，大学新生“开学三件套”电脑、手机、平板价格大涨，有家长预算从1万冲上2万，同款笔记本两个月涨逾千元。业内人士分析，涨价根源在于全球存储芯... <a href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E4%B8%89%E4%BB%B6%E5%A5%97%E9%BD%90%E6%B6%A8%E4%BB%B7%E5%AE%B6%E9%95%BF%E7%9B%B4%E5%91%BC%E5%90%83%E4%B8%8D%E6%B6%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg8">  8 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/4a6095d0435c3736484daeeca36ab4cb?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7137105 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  宝马5系 不到27万了 </div> <div class="c-text c-text-hot_3ZhI9 hot-tag_1G080"> 热 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 今年8月成都车展期间，宝马新世代iX3预售26.99万元起，被视作在华背水一战。今年年初宝马对31款车型大降价，最高降幅... <a href="https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 今年8月成都车展期间，宝马新世代iX3预售26.99万元起，被视作在华背水一战。今年年初宝马对31款车型大降价，最高降幅超10万元，5系裸车价在部分... <a href="https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC5%E7%B3%BB+%E4%B8%8D%E5%88%B027%E4%B8%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg9">  9 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/1f580d99f957bf7d02a3215ccd77fbdc?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 7042594 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  央视曝光焦糖色素假全麦面包 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 央视近日曝光部分所谓全麦面包仅少量添加麸皮，甚至靠焦糖色素做出深褐色外观。记者走访中国农业科学院作物科学研究所，专家现场... <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 央视近日曝光部分所谓全麦面包仅少量添加麸皮，甚至靠焦糖色素做出深褐色外观。记者走访中国农业科学院作物科学研究所，专家现场演示谷物加工流程指出：全谷物... <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E7%84%A6%E7%B3%96%E8%89%B2%E7%B4%A0%E5%81%87%E5%85%A8%E9%BA%A6%E9%9D%A2%E5%8C%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg10">  10 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/fa5c86b2a06c21a6730218a8f510cbe4?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6947768 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  敌敌畏消杀事件6人被刑拘 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月30日，厦门市联合调查组通报“使用敌敌畏为餐饮门店消杀问题”调查结果：涉事企业厦门绿林森环境科技有限公司行为涉嫌违法... <a href="https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月30日，厦门市联合调查组通报“使用敌敌畏为餐饮门店消杀问题”调查结果：涉事企业厦门绿林森环境科技有限公司行为涉嫌违法违规，公安机关已对6名犯罪嫌... <a href="https://www.baidu.com/s?wd=%E6%95%8C%E6%95%8C%E7%95%8F%E6%B6%88%E6%9D%80%E4%BA%8B%E4%BB%B66%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg11">  11 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/a0d4ab91890671c02d96ccc8a2860b3c?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6854542 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  桂圆“打针增甜”不可能 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 入秋桂圆上市季，今天就给大家一次性针对桂圆“泡药水致癌”、“打针增甜”、“同食海鲜中毒”等六大常见谣言逐条辟谣，同时整理... <a href="https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 入秋桂圆上市季，今天就给大家一次性针对桂圆“泡药水致癌”、“打针增甜”、“同食海鲜中毒”等六大常见谣言逐条辟谣，同时整理超实用的挑选食用避坑干货，帮... <a href="https://www.baidu.com/s?wd=%E6%A1%82%E5%9C%86%E2%80%9C%E6%89%93%E9%92%88%E5%A2%9E%E7%94%9C%E2%80%9D%E4%B8%8D%E5%8F%AF%E8%83%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg12">  12 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/c7467645a08cf84c06fb2860ebc5b78c?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6752984 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  一条蛇从天而降砸中汽车引擎盖 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 "> 近日，浙江嘉兴一司机开车时遭遇蛇从天而降砸中引擎盖，蛇随后跑入草丛消失。当事人称蛇是从树上掉下来的。 <a href="https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 近日，浙江嘉兴一司机开车时遭遇蛇从天而降砸中引擎盖，蛇随后跑入草丛消失。当事人称蛇是从树上掉下来的。 <a href="https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E8%9B%87%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E7%A0%B8%E4%B8%AD%E6%B1%BD%E8%BD%A6%E5%BC%95%E6%93%8E%E7%9B%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg13">  13 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/a31e77f039ee60ea989666373b47ffa4?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6663436 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  16岁少女车祸离世 手机被人捡走刷机 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月24日，四川内江16岁女孩遭遇车祸，次日不幸离世。事发后，她随身携带的手机遗失在事故现场，遭人捡走刷机。母亲表示，手... <a href="https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月24日，四川内江16岁女孩遭遇车祸，次日不幸离世。事发后，她随身携带的手机遗失在事故现场，遭人捡走刷机。母亲表示，手机内存有女儿生活照片，想留个... <a href="https://www.baidu.com/s?wd=16%E5%B2%81%E5%B0%91%E5%A5%B3%E8%BD%A6%E7%A5%B8%E7%A6%BB%E4%B8%96+%E6%89%8B%E6%9C%BA%E8%A2%AB%E4%BA%BA%E6%8D%A1%E8%B5%B0%E5%88%B7%E6%9C%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg14">  14 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/5ef0ad30ef8c7bd79a3df2359fcc10a0?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6563503 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  男子被毒蛇咬伤后与蛇搏斗又被咬一口 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，杭州52岁秦先生在田里被毒蛇咬伤左腿后，试图用锄头抓蛇，结果在搏斗中腿部再次被咬。妻子拨打120将其送医，经注射抗... <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 近日，杭州52岁秦先生在田里被毒蛇咬伤左腿后，试图用锄头抓蛇，结果在搏斗中腿部再次被咬。妻子拨打120将其送医，经注射抗蛇毒血清与治疗后已康复出院。 <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E8%A2%AB%E6%AF%92%E8%9B%87%E5%92%AC%E4%BC%A4%E5%90%8E%E4%B8%8E%E8%9B%87%E6%90%8F%E6%96%97%E5%8F%88%E8%A2%AB%E5%92%AC%E4%B8%80%E5%8F%A3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg15">  15 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6474669 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  尼泊尔冰崩是因为全球变暖吗 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ">  <a href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ">  <a href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%B0%E5%B4%A9%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%85%A8%E7%90%83%E5%8F%98%E6%9A%96%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg16">  16 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/10448a6200b742117458a09f5d752aa2?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6382306 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  “三文鱼自由”要来了吗 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月27日，记者走进青岛崂山区调研国信三文鱼产业链。今年5月，“国信1号2-2”养殖工船首批三文鱼上市，出舱12吨，成活... <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月27日，记者走进青岛崂山区调研国信三文鱼产业链。今年5月，“国信1号2-2”养殖工船首批三文鱼上市，出舱12吨，成活率97.3%，零寄生虫、零抗... <a href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%89%E6%96%87%E9%B1%BC%E8%87%AA%E7%94%B1%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg17">  17 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/54c3c458731e88231e8430b585251c93?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6280116 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  樊振东单日票房超百万 </div> <div class="c-text c-text-hot_3ZhI9 hot-tag_1G080"> 热 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月29日，2026-2027赛季德国杯1/8决赛，樊振东所属杜塞尔多夫俱乐部1-3不敌奥克森豪森俱乐部遗憾出局；樊振东... <a href="https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月29日，2026-2027赛季德国杯1/8决赛，樊振东所属杜塞尔多夫俱乐部1-3不敌奥克森豪森俱乐部遗憾出局；樊振东第二盘胜莫维利亚努，第四盘鏖... <a href="https://www.baidu.com/s?wd=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%8D%95%E6%97%A5%E7%A5%A8%E6%88%BF%E8%B6%85%E7%99%BE%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg18">  18 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/a9ad206fc67101b1af998d24e5abd3e5?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6182635 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  厄尔尼诺今年已催生23个台风 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 今年西北太平洋和南海已生成23余个台风，其中5个达超强台风级别。专家解读称，夏季海洋积蓄充足热量，加之今年厄尔尼诺快速发... <a href="https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 今年西北太平洋和南海已生成23余个台风，其中5个达超强台风级别。专家解读称，夏季海洋积蓄充足热量，加之今年厄尔尼诺快速发展致赤道中东太平洋海温异常偏... <a href="https://www.baidu.com/s?wd=%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BB%8A%E5%B9%B4%E5%B7%B2%E5%82%AC%E7%94%9F23%E4%B8%AA%E5%8F%B0%E9%A3%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg19">  19 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6095511 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  宋亚东一夜涨粉超12万 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ">  <a href="https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ">  <a href="https://www.baidu.com/s?wd=%E5%AE%8B%E4%BA%9A%E4%B8%9C%E4%B8%80%E5%A4%9C%E6%B6%A8%E7%B2%89%E8%B6%8512%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg20">  20 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/d4d07e6a6fd1598ebc4cb2d981789b54?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 6002103 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  清华新生凌晨拉练20公里 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月29日晚，清华大学2026级本科新生踏上20公里夜间军训拉练征程。清华大学曾介绍，军训拉练是清华大学一直以来的优良传... <a href="https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月29日晚，清华大学2026级本科新生踏上20公里夜间军训拉练征程。清华大学曾介绍，军训拉练是清华大学一直以来的优良传统，拉练不仅能够鼓舞新生的士... <a href="https://www.baidu.com/s?wd=%E6%B8%85%E5%8D%8E%E6%96%B0%E7%94%9F%E5%87%8C%E6%99%A8%E6%8B%89%E7%BB%8320%E5%85%AC%E9%87%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg21">  21 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/31c80283ea2540988c4594be97d45c84?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5900825 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  《肖申克的救赎》内地票房破1000万 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 "> 据灯塔专业版数据，截至8月30日11时58分，经典影片《肖申克的救赎》内地票房突破1000万元。 <a href="https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 据灯塔专业版数据，截至8月30日11时58分，经典影片《肖申克的救赎》内地票房突破1000万元。 <a href="https://www.baidu.com/s?wd=%E3%80%8A%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E%E3%80%8B%E5%86%85%E5%9C%B0%E7%A5%A8%E6%88%BF%E7%A0%B41000%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg22">  22 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/c6ac46d17470986dfbc6276c7288ea62?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5791994 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  七旬老人花5万做医美后精神抑郁 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，汕头70岁老人被诱导至妍妃梵美容所花5万元做医美。术中老人因痛求停遭强行按住继续，且术前未经体检。目前老人面部肿胀... <a href="https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，汕头70岁老人被诱导至妍妃梵美容所花5万元做医美。术中老人因痛求停遭强行按住继续，且术前未经体检。目前老人面部肿胀、精神出现异常，家人已停工照... <a href="https://www.baidu.com/s?wd=%E4%B8%83%E6%97%AC%E8%80%81%E4%BA%BA%E8%8A%B15%E4%B8%87%E5%81%9A%E5%8C%BB%E7%BE%8E%E5%90%8E%E7%B2%BE%E7%A5%9E%E6%8A%91%E9%83%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg23">  23 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/745d62b6bfad58f3100f7e0e51cd632a?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5707379 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  官方回应“取消ETC” 读懂车主真诉求 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，有网友向交通运输部留言建议取消ETC设备，直接绑定支付账号实现扫车牌通行，免去安装办理的麻烦。交通运输部回应称，将... <a href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，有网友向交通运输部留言建议取消ETC设备，直接绑定支付账号实现扫车牌通行，免去安装办理的麻烦。交通运输部回应称，将推广“手机+”无卡便捷通行模... <a href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D+%E8%AF%BB%E6%87%82%E8%BD%A6%E4%B8%BB%E7%9C%9F%E8%AF%89%E6%B1%82&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg24">  24 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/6067ed6812b7abab944103e68c707d5a?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5622069 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  空车厢行李箱中装33万现金6件金饰 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，上海开往北京的G12次列车抵达北京南站后，上海铁路公安处乘警支队民警巡查车厢时，发现一只被遗落的行李箱。经开箱清点... <a href="https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，上海开往北京的G12次列车抵达北京南站后，上海铁路公安处乘警支队民警巡查车厢时，发现一只被遗落的行李箱。经开箱清点，箱内装有33万元现金及6件... <a href="https://www.baidu.com/s?wd=%E7%A9%BA%E8%BD%A6%E5%8E%A2%E8%A1%8C%E6%9D%8E%E7%AE%B1%E4%B8%AD%E8%A3%8533%E4%B8%87%E7%8E%B0%E9%87%916%E4%BB%B6%E9%87%91%E9%A5%B0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg25">  25 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/73dcf1d4bce2a0a5dd940315da0a05fb?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5509764 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  新疆室友行李箱装30个馕返校 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，一名新疆学生返校时带了一整箱约三四十个馕，引发室友震惊。馕为家人亲手制作，包含核桃馕、辣皮子馕等多种口味。室友称其... <a href="https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，一名新疆学生返校时带了一整箱约三四十个馕，引发室友震惊。馕为家人亲手制作，包含核桃馕、辣皮子馕等多种口味。室友称其可能是为节省生活费，并介绍在... <a href="https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%AE%A4%E5%8F%8B%E8%A1%8C%E6%9D%8E%E7%AE%B1%E8%A3%8530%E4%B8%AA%E9%A6%95%E8%BF%94%E6%A0%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg26">  26 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/38d180fcb57c8fd395027e4bc1d82cc9?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5430209 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  折叠屏iPhone或推出中国红限定版 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，苹果折叠屏iPhone 18 Fold或推出中国红限定配色。若消息属实，这将是苹果折叠屏系列首次推出专属配色，也是... <a href="https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，苹果折叠屏iPhone 18 Fold或推出中国红限定配色。若消息属实，这将是苹果折叠屏系列首次推出专属配色，也是iPhone产品线中较为高调... <a href="https://www.baidu.com/s?wd=%E6%8A%98%E5%8F%A0%E5%B1%8FiPhone%E6%88%96%E6%8E%A8%E5%87%BA%E4%B8%AD%E5%9B%BD%E7%BA%A2%E9%99%90%E5%AE%9A%E7%89%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg27">  27 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/90680858642095b19f4358efc2688daa?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5318516 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  武契奇：感谢中国 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 当地时间8月29日，塞尔维亚总统武契奇出席中塞合建机器人工厂投产仪式，该工厂为欧洲首座人形机器人量产基地。武契奇亲自下场... <a href="https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 当地时间8月29日，塞尔维亚总统武契奇出席中塞合建机器人工厂投产仪式，该工厂为欧洲首座人形机器人量产基地。武契奇亲自下场当守门员与机器人“过招”，他... <a href="https://www.baidu.com/s?wd=%E6%AD%A6%E5%A5%91%E5%A5%87%EF%BC%9A%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg28">  28 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5220053 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  尼泊尔泥石流灾害已致752人死亡 </div> <div class="c-text c-text-hot_3ZhI9 hot-tag_1G080"> 热 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ">  <a href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ">  <a href="https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%B7%B2%E8%87%B4752%E4%BA%BA%E6%AD%BB%E4%BA%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg29">  29 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5140890 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  伊朗最高领袖发表最新书面声明 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ">  <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ">  <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E5%8F%91%E8%A1%A8%E6%9C%80%E6%96%B0%E4%B9%A6%E9%9D%A2%E5%A3%B0%E6%98%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg30">  30 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/ea7803f5364a79adc132c707bd903bdf?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 5040632 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  孩子不想开学不全是孩子的问题 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 开学季不少孩子出现抗拒返校情绪，部分优等生因背负“不能输”的高期待、惧怕重启校园社交产生返校恐惧。专家杜娜针对这类现象，... <a href="https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 开学季不少孩子出现抗拒返校情绪，部分优等生因背负“不能输”的高期待、惧怕重启校园社交产生返校恐惧。专家杜娜针对这类现象，从成因和家长应对方法层面给出... <a href="https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E4%B8%8D%E6%83%B3%E5%BC%80%E5%AD%A6%E4%B8%8D%E5%85%A8%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E9%97%AE%E9%A2%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg31">  31 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/ae51622631000c616de75b7f7b0ff744?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4942221 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  中国首次实现地月双向高速激光通信 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，我国成功在超过40万公里的地月距离上建立起双向激光链路，首次实现地月双向高速激光通信。这标志着我国空间激光通信正式... <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 近日，我国成功在超过40万公里的地月距离上建立起双向激光链路，首次实现地月双向高速激光通信。这标志着我国空间激光通信正式从近地轨道迈入地月空间。 <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%AC%A1%E5%AE%9E%E7%8E%B0%E5%9C%B0%E6%9C%88%E5%8F%8C%E5%90%91%E9%AB%98%E9%80%9F%E6%BF%80%E5%85%89%E9%80%9A%E4%BF%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg32">  32 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/68992ea4f04e444bd4c3d8707cb56882?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4843777 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  未来很难有投资1亿+的大片了 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，娱乐行业分析指出，中国电影市场进入寒冬后，投资1亿以上的项目将寥寥无几，《流浪地球3》或成大制作电影绝唱。分析称，... <a href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，娱乐行业分析指出，中国电影市场进入寒冬后，投资1亿以上的项目将寥寥无几，《流浪地球3》或成大制作电影绝唱。分析称，如今投资超8000万即可称超... <a href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%BE%88%E9%9A%BE%E6%9C%89%E6%8A%95%E8%B5%841%E4%BA%BF%2B%E7%9A%84%E5%A4%A7%E7%89%87%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg33">  33 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/d67338fee88c2ed8e3c5a19a6ace57d2?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4758578 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  凉感服饰国标来了 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 今夏各类凉感服饰、床品消费走热，8月30日国家标准委正式发布《纺织品 吸湿降温性能的检测和评价》国标，2027年2月1日... <a href="https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 今夏各类凉感服饰、床品消费走热，8月30日国家标准委正式发布《纺织品 吸湿降温性能的检测和评价》国标，2027年2月1日起实施，将为这类功能纺织品的... <a href="https://www.baidu.com/s?wd=%E5%87%89%E6%84%9F%E6%9C%8D%E9%A5%B0%E5%9B%BD%E6%A0%87%E6%9D%A5%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg34">  34 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/82a6c9480334e159152e61d1df0f0853?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4646647 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  开学季校园里满是扛着行李的爸爸 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 "> 开学啦！校园里满是扛着行李的爸爸。有父亲从广西开13个小时的车送孩子来武汉上学，“孩子很钟意武汉这座大城市”。 <a href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 开学啦！校园里满是扛着行李的爸爸。有父亲从广西开13个小时的车送孩子来武汉上学，“孩子很钟意武汉这座大城市”。 <a href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%AD%A3%E6%A0%A1%E5%9B%AD%E9%87%8C%E6%BB%A1%E6%98%AF%E6%89%9B%E7%9D%80%E8%A1%8C%E6%9D%8E%E7%9A%84%E7%88%B8%E7%88%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg35">  35 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/bbb331bbbecfb8fa485efffa329979ab?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4573716 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  洪秀柱批“北京没有冰箱”反智 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，洪秀柱痛批“北京没有冰箱”等说法反智无知，质疑民进党对此类言论不加制止、纵容传播，直指这是民进党洗脑台湾百姓的结果... <a href="https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，洪秀柱痛批“北京没有冰箱”等说法反智无知，质疑民进党对此类言论不加制止、纵容传播，直指这是民进党洗脑台湾百姓的结果。此前“大陆没有茶叶蛋”“高... <a href="https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E6%89%B9%E2%80%9C%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E2%80%9D%E5%8F%8D%E6%99%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg36">  36 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/71869c1054be450e90ff1a9220e5ea76?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4453007 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  小沈阳女儿跳新歌手势舞 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，小沈阳女儿沈佳润晒出跳新歌《mamapapa》手势舞的视频。画面中，沈佳润打扮休闲又少女，对着镜头比心、wink，... <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 近日，小沈阳女儿沈佳润晒出跳新歌《mamapapa》手势舞的视频。画面中，沈佳润打扮休闲又少女，对着镜头比心、wink，俏皮可爱。 <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E6%B2%88%E9%98%B3%E5%A5%B3%E5%84%BF%E8%B7%B3%E6%96%B0%E6%AD%8C%E6%89%8B%E5%8A%BF%E8%88%9E&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg37">  37 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/efc30b616dad1278b4739c01cb5ddc58?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4363017 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  以色列定居者蒙面持棍棒袭击美媒 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 当地时间8月30日，在约旦河西岸，蒙面以色列定居者袭击NBC新闻团队及一名巴勒斯坦妇女，致记者、摄像师、制片人等多名人员... <a href="https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 当地时间8月30日，在约旦河西岸，蒙面以色列定居者袭击NBC新闻团队及一名巴勒斯坦妇女，致记者、摄像师、制片人等多名人员受伤，妇女被红新月会送医。 <a href="https://www.baidu.com/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%AE%9A%E5%B1%85%E8%80%85%E8%92%99%E9%9D%A2%E6%8C%81%E6%A3%8D%E6%A3%92%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%AA%92&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg38">  38 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/fac063437e308f0e0c677f79b0a309b4?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4261906 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  吉隆泥石流救灾发现新堰塞体 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月29日晚，在西藏吉隆县泥石流救灾中，无人机监测发现普热普强藏布堰塞湖下游2.8公里处发生山体滑坡并形成新堰塞体。应急... <a href="https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月29日晚，在西藏吉隆县泥石流救灾中，无人机监测发现普热普强藏布堰塞湖下游2.8公里处发生山体滑坡并形成新堰塞体。应急管理部迅速组织专家研判，并已... <a href="https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E6%95%91%E7%81%BE%E5%8F%91%E7%8E%B0%E6%96%B0%E5%A0%B0%E5%A1%9E%E4%BD%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg39">  39 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/8f4e66a55591ab6639373b0b2f00a07e?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4159007 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  这些中国网文和电视剧在海外成爆款 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，中国作协发布《2025中国网络文学蓝皮书》：截至2025年底，中国网文累计向海外输出超13万部，海外营收突破80亿... <a href="https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，中国作协发布《2025中国网络文学蓝皮书》：截至2025年底，中国网文累计向海外输出超13万部，海外营收突破80亿元。《诡秘之主》被译成10余... <a href="https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E7%BD%91%E6%96%87%E5%92%8C%E7%94%B5%E8%A7%86%E5%89%A7%E5%9C%A8%E6%B5%B7%E5%A4%96%E6%88%90%E7%88%86%E6%AC%BE&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg40">  40 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/3ed67872611c186b82ad536915f86c73?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 4098862 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  兰州大学用“一碗牛肉面”迎接新生 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 "> 近日，兰州大学迎接2026级新生，为新生送上一碗牛肉拉面作为见面礼。 <a href="https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 近日，兰州大学迎接2026级新生，为新生送上一碗牛肉拉面作为见面礼。 <a href="https://www.baidu.com/s?wd=%E5%85%B0%E5%B7%9E%E5%A4%A7%E5%AD%A6%E7%94%A8%E2%80%9C%E4%B8%80%E7%A2%97%E7%89%9B%E8%82%89%E9%9D%A2%E2%80%9D%E8%BF%8E%E6%8E%A5%E6%96%B0%E7%94%9F&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg41">  41 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/8aa3c0183a4bf2b887b03f64c12377fe?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3983695 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  热刺花最多的钱 遭最毒的打 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月30日，英超第2轮，热刺主场迎战纽卡斯尔联，下半场被埃兰加和维萨连入两球。热刺今夏豪掷超3亿英镑引援，却遭遇52年来... <a href="https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 8月30日，英超第2轮，热刺主场迎战纽卡斯尔联，下半场被埃兰加和维萨连入两球。热刺今夏豪掷超3亿英镑引援，却遭遇52年来最差开局：两战皆负，进0球丢... <a href="https://www.baidu.com/s?wd=%E7%83%AD%E5%88%BA%E8%8A%B1%E6%9C%80%E5%A4%9A%E7%9A%84%E9%92%B1+%E9%81%AD%E6%9C%80%E6%AF%92%E7%9A%84%E6%89%93&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg42">  42 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/56afe49b59a88050a829fa5e76097f7a?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3906554 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  校方回应小卖部招人需笔试面试 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，广西玉林市田家炳中学一则招聘小卖部工作人员需经过笔试、面试公告引发关注。该岗位招聘人数1人，应聘者需没有犯罪记录，... <a href="https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，广西玉林市田家炳中学一则招聘小卖部工作人员需经过笔试、面试公告引发关注。该岗位招聘人数1人，应聘者需没有犯罪记录，文化程度为高中及以上，男性年... <a href="https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B0%8F%E5%8D%96%E9%83%A8%E6%8B%9B%E4%BA%BA%E9%9C%80%E7%AC%94%E8%AF%95%E9%9D%A2%E8%AF%95&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg43">  43 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/0e4d074d53a257e74b6c9ea35bc73806?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3773751 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  泥石流灾区夜空升起一盏灯 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 "> 西藏吉隆口岸泥石流灾区的夜空升起了一盏灯，谢谢全力保障的电力人，致敬昼夜抢险的救援人。 <a href="https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 西藏吉隆口岸泥石流灾区的夜空升起了一盏灯，谢谢全力保障的电力人，致敬昼夜抢险的救援人。 <a href="https://www.baidu.com/s?wd=%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%8C%BA%E5%A4%9C%E7%A9%BA%E5%8D%87%E8%B5%B7%E4%B8%80%E7%9B%8F%E7%81%AF&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg44">  44 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/1ff09690cdcc84a5c3ceb755b29edf82?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3701514 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  21世纪AI会催生1万个爱因斯坦吗 </div> <div class="c-text c-text-new_YE8mj hot-tag_1G080"> 新 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，2026科学智能大会上，多位科学家表示，AI正大幅提升科研效率：全球地质图整合、小麦基因组图谱绘制等原本耗时数月的... <a href="https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，2026科学智能大会上，多位科学家表示，AI正大幅提升科研效率：全球地质图整合、小麦基因组图谱绘制等原本耗时数月的工作如今大幅提速。有学者认为... <a href="https://www.baidu.com/s?wd=21%E4%B8%96%E7%BA%AAAI%E4%BC%9A%E5%82%AC%E7%94%9F1%E4%B8%87%E4%B8%AA%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%90%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg45">  45 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/8f8af403826a5ccf1f23674e4edb0b1a?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3593817 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  19年前被救的男孩和救命医生成同事 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 2007年，江西萍乡4岁的黄宏鑫身患重病，在湘雅医院被龙隆教授团队成功救治。心怀感恩的他立志从医，多年苦读圆梦考研，成为... <a href="https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 2007年，江西萍乡4岁的黄宏鑫身患重病，在湘雅医院被龙隆教授团队成功救治。心怀感恩的他立志从医，多年苦读圆梦考研，成为湘雅神经外科2026级研究生... <a href="https://www.baidu.com/s?wd=19%E5%B9%B4%E5%89%8D%E8%A2%AB%E6%95%91%E7%9A%84%E7%94%B7%E5%AD%A9%E5%92%8C%E6%95%91%E5%91%BD%E5%8C%BB%E7%94%9F%E6%88%90%E5%90%8C%E4%BA%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg46">  46 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/efd241398ad2d0d7ec4305412e05ea7a?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3513227 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  父母卖房辞职支持常冰玉练球 </div> <div class="c-text c-text-hot_3ZhI9 hot-tag_1G080"> 热 </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 8月29日，斯诺克武汉公开赛上，小将常冰玉10比7战胜赵心童夺生涯首冠。赛后他哽咽感谢父母卖房辞职陪练多年，称“他们真的... <a href="https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU "> 8月29日，斯诺克武汉公开赛上，小将常冰玉10比7战胜赵心童夺生涯首冠。赛后他哽咽感谢父母卖房辞职陪练多年，称“他们真的很不容易”。 <a href="https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E5%8D%96%E6%88%BF%E8%BE%9E%E8%81%8C%E6%94%AF%E6%8C%81%E5%B8%B8%E5%86%B0%E7%8E%89%E7%BB%83%E7%90%83&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg47">  47 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/2b3abbdce44aa88ea688e5020227b0cf?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3411185 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  吴敬平回应樊振东输户上隼辅 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 近日，针对德国杯1/8淘汰赛樊振东2比3不敌户上隼辅一事，教练吴敬平发文回应。他表示对手超水平搏杀，樊振东在0比2落后下... <a href="https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 近日，针对德国杯1/8淘汰赛樊振东2比3不敌户上隼辅一事，教练吴敬平发文回应。他表示对手超水平搏杀，樊振东在0比2落后下连追两局，最终因决胜局11比... <a href="https://www.baidu.com/s?wd=%E5%90%B4%E6%95%AC%E5%B9%B3%E5%9B%9E%E5%BA%94%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E6%88%B7%E4%B8%8A%E9%9A%BC%E8%BE%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg48">  48 </div> <img src="https://fyb-2.cdn.bcebos.com/hotboard_image/3779c28cf5176b321955eed4fdbdc48a?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3321473 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  杜塞主帅谈樊振东输球隐情 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ellipsis_DupbZ"> 杜塞主帅海斯特透露樊振东输球隐情，樊振东现阶段恢复过程异常艰难，因休赛期缺少系统训练与正式赛事，且在海外需独自处理训练和... <a href="https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ellipsis_DupbZ"> 杜塞主帅海斯特透露樊振东输球隐情，樊振东现阶段恢复过程异常艰难，因休赛期缺少系统训练与正式赛事，且在海外需独自处理训练和生活，后勤保障大不如前。输球... <a href="https://www.baidu.com/s?wd=%E6%9D%9C%E5%A1%9E%E4%B8%BB%E5%B8%85%E8%B0%88%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%BE%93%E7%90%83%E9%9A%90%E6%83%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg49">  49 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3208261 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  萌娃首战艺术体操边哭边跳 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ">  <a href="https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ">  <a href="https://www.baidu.com/s?wd=%E8%90%8C%E5%A8%83%E9%A6%96%E6%88%98%E8%89%BA%E6%9C%AF%E4%BD%93%E6%93%8D%E8%BE%B9%E5%93%AD%E8%BE%B9%E8%B7%B3&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div><div class="category-wrap_iQLoo horizontal_1eKyQ"> <a class="img-wrapper_29V76" href="https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" target="_blank"> <div class="index_1Ew5p c-index-bg50">  50 </div> <img src="https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg?x-bce-process=image/resize,m_fill,w_256,h_170" alt=""> <div class="border_3WfEn"></div> </a> <div class="trend_2RttY hide-icon_3uwiZ"> <div class="img-wrap_JPOmE trend-icon_1Z3Cd"> <img src="//fyb-pc-static.cdn.bcebos.com/static/asset/icon-same_886375f242bd1538af21a9721f16b170.png"> </div> <div class="hot-index_1Bl1a"> 3146733 </div> <div class="text_1lUwZ"> 热搜指数 </div> </div> <img class="line_3-bzA" src="//fyb-pc-static.cdn.bcebos.com/static/asset/line-bg@2x_95cb5a089159c6d5a959a596d460d60a.png"> <div class="content_1YWBm"> <a href="https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="title_dIF3B " target="_blank"> <div class="c-single-text-ellipsis">  常冰玉回应击败赵心童获首冠 </div> <div class="c-text  hot-tag_1G080">  </div> </a> <!--s-frag--> <div class="hot-desc_1m_jR small_Uvkd3 ">  <a href="https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <div class="hot-desc_1m_jR large_nSuFU ">  <a href="https://www.baidu.com/s?wd=%E5%B8%B8%E5%86%B0%E7%8E%89%E5%9B%9E%E5%BA%94%E5%87%BB%E8%B4%A5%E8%B5%B5%E5%BF%83%E7%AB%A5%E8%8E%B7%E9%A6%96%E5%86%A0&amp;sa=fyb_news&amp;rsv_dl=fyb_news" class="look-more_3oNWC" target="_blank">查看更多&gt;</a> </div> <!--/s-frag--> </div> </div>  </div>  </div> </div> </main> <div class="container footer_aoJsU"> <a class="c-font-small" href="//www.baidu.com/cache/setindex/index.html" target="_blank">设为首页</a> <a class="c-font-small" href="//home.baidu.com" target="_blank">关于百度</a> <a class="c-font-small" href="http://ir.baidu.com" target="_blank">About Baidu</a> <a class="c-font-small" href="//www.baidu.com/duty" target="_blank">使用百度前必读</a> <a class="c-font-small" href="//help.baidu.com/newadd?prod_id=1&amp;category=4" target="_blank">意见反馈</a> <a class="c-font-small" href="//help.baidu.com" target="_blank">帮助中心</a> <a class="c-font-small" href="//e.baidu.com/lp/hot/?refer=1297" target="_blank">企业推广</a> <span class="c-font-small">&copy;2021 Baidu</span> </div> <div class="container_2R1hQ">  <a href="/board?page=rule&amp;tab=realtime"> <i class="c-icon"></i> <div class="side-float-popup">查看榜单规则</div> </a>   </div> </div></div>
+                <script src="//fe-prod.cdn.bcebos.com/wise/svg/polyfills.js"></script>
+                <script src="//fe-prod.cdn.bcebos.com/wise/svg/polyfillsIE.js"></script>
+                <script id="svglib" src="//fe-prod.cdn.bcebos.com/wise/svn.min.js"></script>
+                <script src="//fyb-pc-static.cdn.bcebos.com/static/main_0397691.js" crossorigin="anonymous"></script>
+            </body>
+        </html>
