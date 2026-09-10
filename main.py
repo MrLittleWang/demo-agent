@@ -10,7 +10,6 @@ import yaml
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-
 from api.routes import creat_router
 
 load_dotenv()
@@ -20,7 +19,6 @@ base_url = os.environ["ANTHROPIC_BASE_URL"]
 
 ROOT = Path(__file__).resolve().parents[0]
 SKILLS_DIR = ROOT / "skills"
-print(SKILLS_DIR)
 
 
 class SkillLoader:
@@ -186,12 +184,17 @@ def web_fetch(url: str,
 client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
 
 
+def creat_app() -> FastAPI:
 
-def creat_app()-> FastAPI:
-
-    app = FastAPI(title="小杰Agent", description="一个基于Anthropic API的智能助手", version="1.0.0")
-    app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=False, allow_methods=["*"], allow_headers=["*"])
-    app.include_router(creat_router(agent_provider=client), prefix="")
+    app = FastAPI(title="小杰Agent",
+                  description="一个基于Anthropic API的智能助手",
+                  version="1.0.0")
+    app.add_middleware(CORSMiddleware,
+                       allow_origins=["*"],
+                       allow_credentials=False,
+                       allow_methods=["*"],
+                       allow_headers=["*"])
+    app.include_router(creat_router(agent_provider=lambda: client), prefix="")
 
 
 # history = []
