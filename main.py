@@ -7,6 +7,11 @@ from dotenv import load_dotenv
 import anthropic
 import urllib
 import yaml
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+
+from api.routes import creat_router
 
 load_dotenv()
 
@@ -180,56 +185,65 @@ def web_fetch(url: str,
 
 client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
 
-history = []
-while True:
-    msg = input("给公公下一道圣旨:")
-    if msg in ("exit", "quit"):
-        break
-    history.append({"role": "user", "content": msg})
-    while True:
-        response = client.messages.create(model="deepseek-v4-flash",
-                                          max_tokens=1024,
-                                          system=SYSTEM_PROMPT,
-                                          tools=TOOLS,
-                                          messages=history)
-        history.append({"role": "assistant", "content": response.content})
 
-        if response.stop_reason != "tool_use":
-            reply = next(content.text for content in response.content
-                         if content.type == 'text')
-            print(f"公公给的答复是:{reply}")
-            break
 
-        tool_results = []  # 存储工具执行结果
+def creat_app()-> FastAPI:
 
-        for block in response.content:
-            if block.type != "tool_use":
-                continue
-            if block.type == "tool_use":
-                tool_name = block.name
-                tool_input = block.input
-                if tool_name == 'run_command':
-                    command = tool_input['command']
-                    print(f"[执行命令]:{command}")
-                    output = run_command(command=command)
-                    print(f"📤 命令输出:\n{output}")
-                    content = output
+    app = FastAPI(title="小杰Agent", description="一个基于Anthropic API的智能助手", version="1.0.0")
+    app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=False, allow_methods=["*"], allow_headers=["*"])
+    app.include_router(creat_router(agent_provider=client), prefix="")
 
-                elif tool_name == "web_fetch":
-                    url = tool_input["url"]
-                    mode = tool_input.get("extract_mode", "text")
-                    max_chars = tool_input.get("max_chars", 8000)
-                    print(f"[网页获取]: {url}")
-                    content = web_fetch(url, mode, max_chars)
-                elif tool_name == "load_skill":
-                    skill_name = tool_input["skill_name"]
-                    print(f"[加载技能]: {skill_name}")
-                    content = SKILL_LOADER.get_content(skill_name)
-                else:
-                    raise ValueError(f"未知工具:{tool_name}")
-                tool_results.append({
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": content
-                })
-        history.append({"role": "user", "content": tool_results})
+
+# history = []
+# while True:
+#     msg = input("给公公下一道圣旨:")
+#     if msg in ("exit", "quit"):
+#         break
+#     history.append({"role": "user", "content": msg})
+#     while True:
+#         response = client.messages.create(model="deepseek-v4-flash",
+#                                           max_tokens=1024,
+#                                           system=SYSTEM_PROMPT,
+#                                           tools=TOOLS,
+#                                           messages=history)
+#         history.append({"role": "assistant", "content": response.content})
+
+#         if response.stop_reason != "tool_use":
+#             reply = next(content.text for content in response.content
+#                          if content.type == 'text')
+#             print(f"公公给的答复是:{reply}")
+#             break
+
+#         tool_results = []  # 存储工具执行结果
+
+#         for block in response.content:
+#             if block.type != "tool_use":
+#                 continue
+#             if block.type == "tool_use":
+#                 tool_name = block.name
+#                 tool_input = block.input
+#                 if tool_name == 'run_command':
+#                     command = tool_input['command']
+#                     print(f"[执行命令]:{command}")
+#                     output = run_command(command=command)
+#                     print(f"📤 命令输出:\n{output}")
+#                     content = output
+
+#                 elif tool_name == "web_fetch":
+#                     url = tool_input["url"]
+#                     mode = tool_input.get("extract_mode", "text")
+#                     max_chars = tool_input.get("max_chars", 8000)
+#                     print(f"[网页获取]: {url}")
+#                     content = web_fetch(url, mode, max_chars)
+#                 elif tool_name == "load_skill":
+#                     skill_name = tool_input["skill_name"]
+#                     print(f"[加载技能]: {skill_name}")
+#                     content = SKILL_LOADER.get_content(skill_name)
+#                 else:
+#                     raise ValueError(f"未知工具:{tool_name}")
+#                 tool_results.append({
+#                     "type": "tool_result",
+#                     "tool_use_id": block.id,
+#                     "content": content
+#                 })
+#         history.append({"role": "user", "content": tool_results})
