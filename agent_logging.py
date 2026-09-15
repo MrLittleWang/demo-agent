@@ -199,3 +199,23 @@ def sanitize(value: Any) -> Any:
     if isinstance(value, (int, float, bool)) or value is None:
         return value
     return _redact_text(str(value))
+
+def log_course_event(event_code: str, summary: str, *, teaching: bool = False, **fields: Any) -> None:
+    """在事件实际发生处打印教学日志；INFO 每轮最多保留 7 条关键事件。"""
+    logger = logging.getLogger(LOGGER_NAME)
+    level = logging.INFO if teaching else logging.DEBUG
+    if not logger.isEnabledFor(level):
+        return
+    if teaching:
+        count = _TEACHING_EVENT_COUNT.get()
+        if count >= 7:
+            level = logging.DEBUG
+        else:
+            _TEACHING_EVENT_COUNT.set(count + 1)
+    caller = inspect.currentframe().f_back
+    source = f"{caller.f_globals.get('__name__', '-')}.{caller.f_code.co_name}" if caller else "-"
+    detail = sanitize(fields)
+    message = f"{source}｜{summary}"
+    if detail:
+        message += f"：{detail}"
+    logger.log(level, message, extra={"event_code": event_code})
