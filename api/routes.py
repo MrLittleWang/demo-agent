@@ -10,12 +10,13 @@ def creat_router(agent_provider: Any) -> APIRouter:
 
     @router.get("/health")
     def health_check():
+        print(agent_provider.api_key)
         return {"status": "ok"}
 
     @router.post("/chat")
     def chat(chat_request: ChatRequest) -> ChatResponse:
         try:
-            return agent_provider.message.create(chat_request)
+            return agent_provider.chat(chat_request)
         except RuntimeError as e:
             raise HTTPException(status_code=503, detail=str(e)) from e
 

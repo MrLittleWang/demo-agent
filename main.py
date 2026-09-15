@@ -6,16 +6,15 @@ import subprocess
 from dotenv import load_dotenv
 import anthropic
 import urllib
+import uvicorn
 import yaml
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from agents.custom_service_agent import CustomServiceAgent
 from api.routes import creat_router
 
 load_dotenv()
-
-api_key = os.environ["ANTHROPIC_API_KEY"]
-base_url = os.environ["ANTHROPIC_BASE_URL"]
 
 ROOT = Path(__file__).resolve().parents[0]
 SKILLS_DIR = ROOT / "skills"
@@ -181,12 +180,11 @@ def web_fetch(url: str,
     return text[:max_chars]
 
 
-client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
+client = CustomServiceAgent()
 
+def create_app() -> FastAPI:
 
-def creat_app() -> FastAPI:
-
-    app = FastAPI(title="小杰Agent",
+    app = FastAPI(title="小杰电商Agent",
                   description="一个基于Anthropic API的智能助手",
                   version="1.0.0")
     app.add_middleware(CORSMiddleware,
@@ -194,8 +192,12 @@ def creat_app() -> FastAPI:
                        allow_credentials=False,
                        allow_methods=["*"],
                        allow_headers=["*"])
-    app.include_router(creat_router(agent_provider=lambda: client), prefix="")
+    app.include_router(creat_router(agent_provider=client), prefix="")
+    return app
+app = create_app()
 
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
 
 # history = []
 # while True:

@@ -1,14 +1,13 @@
+
 from api.schemas import ChatResponse
+from models.llm_client import call_chat_model
+
 
 
 class CustomServiceAgent:
 
-    def __init__(self, agent_provider):
-        self.agent_provider = agent_provider
-
+        
     def chat(self, chat_request) -> ChatResponse:
 
-        answer = self.agent_provider.message.create(
-            model="deepseek-v4-flash",
-            max_tokens=1024,
-            user_message=chat_request.user_message)
+        answer = call_chat_model(chat_request.user_message, chat_request.session_id)
+        return ChatResponse(answer=answer, session_id=chat_request.session_id)
