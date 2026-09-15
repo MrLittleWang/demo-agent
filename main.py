@@ -182,6 +182,7 @@ def web_fetch(url: str,
 
 client = CustomServiceAgent()
 
+
 def create_app() -> FastAPI:
 
     app = FastAPI(title="小杰电商Agent",
@@ -194,6 +195,8 @@ def create_app() -> FastAPI:
                        allow_headers=["*"])
     app.include_router(creat_router(agent_provider=client), prefix="")
     return app
+
+
 app = create_app()
 
 if __name__ == "__main__":

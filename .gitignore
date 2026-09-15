@@ -2,3 +2,4 @@
 id_*
 .gitignore
 __pycache__
+python.exe
