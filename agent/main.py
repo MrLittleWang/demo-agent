@@ -11,8 +11,8 @@ import yaml
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from agent.agents.custom_service_agent import CustomServiceAgent
-from agent.api.routes import creat_router
+from agents.custom_service_agent import CustomServiceAgent
+from api.routes import creat_router
 
 load_dotenv()
 

@@ -3,7 +3,7 @@ import os
 import anthropic
 from dotenv import load_dotenv
 
-from agent.config.setting import api_key_is_missing
+from config.setting import api_key_is_missing
 
 
 load_dotenv()

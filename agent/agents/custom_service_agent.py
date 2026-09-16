@@ -1,6 +1,6 @@
-from agent.agent_logging import log_course_event, observe_chat
-from agent.api.schemas import ChatResponse
-from agent.models.llm_client import call_chat_model
+from agent_logging import log_course_event, observe_chat
+from api.schemas import ChatResponse
+from models.llm_client import call_chat_model
 
 
 class CustomServiceAgent:
