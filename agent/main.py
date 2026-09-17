@@ -1,21 +1,22 @@
 from html.parser import HTMLParser
-import os
 from pathlib import Path
 import re
 import subprocess
+import sys
 from dotenv import load_dotenv
-import anthropic
 import urllib
 import uvicorn
 import yaml
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from agents.custom_service_agent import CustomServiceAgent
-from api.routes import creat_router
+from agent.agents.custom_service_agent import CustomServiceAgent
+from agent.api.routes import creat_router
 
 load_dotenv()
 
+# 把项目根 demo-agent\ 加入 sys.path，让 `agent` 成为可导入的顶层包
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 ROOT = Path(__file__).resolve().parents[0]
 SKILLS_DIR = ROOT / "skills"
 

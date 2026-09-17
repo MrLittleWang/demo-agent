@@ -200,7 +200,12 @@ def sanitize(value: Any) -> Any:
         return value
     return _redact_text(str(value))
 
-def log_course_event(event_code: str, summary: str, *, teaching: bool = False, **fields: Any) -> None:
+
+def log_course_event(event_code: str,
+                     summary: str,
+                     *,
+                     teaching: bool = False,
+                     **fields: Any) -> None:
     """在事件实际发生处打印教学日志；INFO 每轮最多保留 7 条关键事件。"""
     logger = logging.getLogger(LOGGER_NAME)
     level = logging.INFO if teaching else logging.DEBUG
@@ -220,12 +225,19 @@ def log_course_event(event_code: str, summary: str, *, teaching: bool = False, *
         message += f"：{detail}"
     logger.log(level, message, extra={"event_code": event_code})
 
+
 def log_model_input(*, model: str, messages: Any, prompt_source: str) -> None:
     _MODEL_CALLED.set(True)
-    logging.getLogger(LOGGER_NAME).debug("模型=%s，Prompt来源=%s，完整输入=%s", model, prompt_source,
-                                         sanitize(messages), extra={"event_code": "MODEL_INPUT"})
+    logging.getLogger(LOGGER_NAME).debug("模型=%s，Prompt来源=%s，完整输入=%s",
+                                         model,
+                                         prompt_source,
+                                         sanitize(messages),
+                                         extra={"event_code": "MODEL_INPUT"})
+
 
 def log_model_output(*, model: str, content: Any) -> Any:
-    logging.getLogger(LOGGER_NAME).debug("模型=%s，完整输出=%s", model, sanitize(content),
+    logging.getLogger(LOGGER_NAME).debug("模型=%s，完整输出=%s",
+                                         model,
+                                         sanitize(content),
                                          extra={"event_code": "MODEL_OUTPUT"})
     return content

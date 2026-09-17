@@ -2,8 +2,8 @@ from typing import Any
 
 from fastapi import APIRouter, HTTPException
 
-from api.schemas import ChatRequest, ChatResponse
-from config.setting import load_agent_capabilities
+from agent.api.schemas import ChatRequest, ChatResponse
+from agent.config.setting import load_agent_capabilities
 
 
 def creat_router(agent_provider: Any) -> APIRouter:
@@ -29,4 +29,3 @@ def creat_router(agent_provider: Any) -> APIRouter:
             raise HTTPException(status_code=503, detail=str(e)) from e
 
     return router
-            

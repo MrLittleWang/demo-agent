@@ -1,14 +1,14 @@
 {
   "schema_version": "agent_capabilities_v1",
   "lesson": {
-    "id": "lesson-02-chat-service",
-    "number": 2,
-    "title": "你搭好 /chat 服务，让聊天框先能接进来｜Agent 对话接口",
-    "summary": "当前版本只开放 Agent 后端 /chat 入口、运行时身份字段和最小响应格式。"
+    "id": "lesson-04-intent-structured-output",
+    "number": 4,
+    "title": "AI 说“我帮你处理”，售后却没收到退货请求｜结构化输出与意图识别",
+    "summary": "当前版本让 /chat 响应第一次返回 intent，并让真实大模型基于结构化意图生成克制客服回复。"
   },
   "agent": {
     "name": "小哲电商客服 Agent",
-    "version": "lesson-02-chat-service"
+    "version": "lesson-04-intent-structured-output"
   },
   "endpoints": {
     "health": true,
@@ -22,7 +22,9 @@
     "runtime_context": true,
     "reasoning_summary": true,
     "reasoning_content": false,
-    "structured_intent": false,
+    "real_llm_answer": true,
+    "grounded_model_answer": true,
+    "structured_intent": true,
     "rag_citations": false,
     "tool_calls": false,
     "workflow": false,
@@ -34,9 +36,7 @@
     "cost_summary": false
   },
   "disabled_reasons": {
-    "reasoning_summary": "当前版本只开放最小 /chat 接入，公开执行摘要从后续课程开始出现。",
-    "reasoning_content": "当前版本只开放 /chat 接入，不展示模型 reasoning_content。",
-    "structured_intent": "当前版本还没有开放结构化意图识别。",
+    "reasoning_content": "当前版本只展示公开执行摘要，不展示模型 reasoning_content。",
     "rag_citations": "RAG 和引用来源还没有接入。",
     "tool_calls": "业务工具还没有接入。",
     "workflow": "售后工作流还没有接入。",

@@ -15,6 +15,7 @@ Intent = Literal[
     "unknown",
 ]
 
+
 class ChatRequest(BaseModel):
     """调试后台发送给 `/chat` 的最小请求格式。"""
     session_id: str = Field(..., description="当前对话会话 ID")
@@ -44,6 +45,7 @@ class IntentResult(BaseModel):
     matched_keywords: list[str] = Field(default_factory=list)
     explanation: str
 
+
 class ChatResponse(BaseModel):
     """从这一版开始，回答旁边多一个系统能读懂的意图标签。"""
 
@@ -53,4 +55,3 @@ class ChatResponse(BaseModel):
     intent_result: IntentResult
     reasoning_summary: list[str]
     session_state: dict[str, Any]
-
