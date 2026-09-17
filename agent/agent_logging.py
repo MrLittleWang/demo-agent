@@ -219,3 +219,13 @@ def log_course_event(event_code: str, summary: str, *, teaching: bool = False, *
     if detail:
         message += f"：{detail}"
     logger.log(level, message, extra={"event_code": event_code})
+
+def log_model_input(*, model: str, messages: Any, prompt_source: str) -> None:
+    _MODEL_CALLED.set(True)
+    logging.getLogger(LOGGER_NAME).debug("模型=%s，Prompt来源=%s，完整输入=%s", model, prompt_source,
+                                         sanitize(messages), extra={"event_code": "MODEL_INPUT"})
+
+def log_model_output(*, model: str, content: Any) -> Any:
+    logging.getLogger(LOGGER_NAME).debug("模型=%s，完整输出=%s", model, sanitize(content),
+                                         extra={"event_code": "MODEL_OUTPUT"})
+    return content

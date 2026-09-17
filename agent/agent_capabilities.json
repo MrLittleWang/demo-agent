@@ -20,7 +20,7 @@
   "features": {
     "chat": true,
     "runtime_context": true,
-    "reasoning_summary": false,
+    "reasoning_summary": true,
     "reasoning_content": false,
     "structured_intent": false,
     "rag_citations": false,
