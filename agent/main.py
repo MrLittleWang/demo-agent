@@ -10,13 +10,13 @@ import yaml
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from agent.agents.custom_service_agent import CustomServiceAgent
-from agent.api.routes import creat_router
+from agent_logging import configure_course_logging
+from agents.custom_service_agent import CustomServiceAgent
+from api.routes import create_router
 
 load_dotenv()
 
-# 把项目根 demo-agent\ 加入 sys.path，让 `agent` 成为可导入的顶层包
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 ROOT = Path(__file__).resolve().parents[0]
 SKILLS_DIR = ROOT / "skills"
 
@@ -180,6 +180,7 @@ def web_fetch(url: str,
 
     return text[:max_chars]
 
+configure_course_logging(Path(__file__).resolve().parent)
 
 client = CustomServiceAgent()
 
@@ -194,7 +195,7 @@ def create_app() -> FastAPI:
                        allow_credentials=False,
                        allow_methods=["*"],
                        allow_headers=["*"])
-    app.include_router(creat_router(agent_provider=client), prefix="")
+    app.include_router(create_router(lambda:client), prefix="")
     return app
 
 

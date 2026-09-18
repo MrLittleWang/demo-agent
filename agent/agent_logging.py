@@ -4,12 +4,15 @@ from functools import wraps
 import inspect
 import json
 import logging
+import os
+from pathlib import Path
 import re
 from time import time
 import time
 from typing import Any, Mapping, Sequence
 
 LOGGER_NAME = "xiaojie_agent"
+VALID_LEVELS = {"DEBUG", "INFO", "WARNING", "ERROR"}
 
 _LOG_CONTEXT: ContextVar[tuple[str, str]] = ContextVar("course_log_context",
                                                        default=("-", "-"))
@@ -31,6 +34,8 @@ HIDDEN_REASONING_KEYS = {
     "reasoning_content", "hidden_reasoning", "hidden_cot", "chain_of_thought"
 }
 VECTOR_ARRAY_KEYS = {"embedding", "embeddings", "vector", "vectors"}
+THIRD_PARTY_LOGGERS = ("httpx", "httpcore", "openai", "chromadb")
+
 _CURRENT_LESSON_ID = "-"
 
 _BEARER = re.compile(r"(?i)bearer\s+[A-Za-z0-9._~+\-/=]+")
@@ -42,6 +47,84 @@ _PHONE = re.compile(r"(?<!\d)1[3-9]\d{9}(?!\d)")
 _ADDRESS = re.compile(r"(地址\s*[:：]\s*)[^\n,，;；]{4,80}")
 _EMAIL = re.compile(
     r"\b[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)+\b")
+
+
+def _load_logging_env(backend_dir: Path) -> None:
+    path = Path(os.getenv("AGENT_COURSE_ENV", str(backend_dir.parents[1] / "course.env"))).expanduser()
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        if key.strip() in {"AGENT_LOG_LEVEL", "AGENT_ACCESS_LOG"}:
+            os.environ.setdefault(key.strip(), value.strip().strip("\"'"))
+
+
+def _lesson_id(backend_dir: Path) -> str:
+    try:
+        data = json.loads((backend_dir / "agent_capabilities.json").read_text(encoding="utf-8"))
+        return str(data["lesson"]["id"])
+    except (OSError, KeyError, TypeError, ValueError):
+        return backend_dir.parent.name
+
+
+def configure_course_logging(backend_dir: str | Path) -> None:
+    """重复调用会替换旧 handler，不会重复输出。"""
+    global _ACCESS_LOG_ENABLED, _CURRENT_LESSON_ID
+    backend = Path(backend_dir).resolve()
+    _load_logging_env(backend)
+    raw_level = os.getenv("AGENT_LOG_LEVEL", "INFO").strip().upper()
+    level = raw_level if raw_level in VALID_LEVELS else "INFO"
+    _ACCESS_LOG_ENABLED = os.getenv("AGENT_ACCESS_LOG", "false").strip().lower() in {"1", "true", "yes", "on"}
+    lesson_id = _lesson_id(backend)
+    _CURRENT_LESSON_ID = lesson_id
+    handler = {
+        "class": "logging.StreamHandler", "stream": "ext://sys.stdout", "level": level,
+        "formatter": "course_console", "filters": ["course_context"],
+    }
+    course_logger = {"handlers": ["course_console"], "level": level, "propagate": False}
+    logging.config.dictConfig({
+        "version": 1,
+        "disable_existing_loggers": False,
+        "filters": {"course_context": {"()": CourseLogFilter, "lesson_id": lesson_id}},
+        "formatters": {"course_console": {
+            "format": "%(asctime)s.%(msecs)03d｜%(levelname)-7s｜%(event_code)s｜%(session_id)s｜%(message)s",
+            "datefmt": "%H:%M:%S",
+        }},
+        "handlers": {"course_console": handler},
+        "loggers": {
+            LOGGER_NAME: course_logger,
+            "uvicorn": course_logger,
+            "uvicorn.error": {"level": level},
+            "uvicorn.access": course_logger,
+            **{name: {"handlers": ["course_console"], "level": "WARNING", "propagate": False}
+               for name in THIRD_PARTY_LOGGERS},
+        },
+    })
+    logger = logging.getLogger(LOGGER_NAME)
+    if raw_level not in VALID_LEVELS:
+        logger.warning("AGENT_LOG_LEVEL=%s 无效，已回退为 INFO", raw_level,
+                       extra={"event_code": "LOG_LEVEL_INVALID"})
+    logger.info("课程日志已启动，课次=%s，level=%s，access_log=%s", lesson_id, level, _ACCESS_LOG_ENABLED,
+                extra={"event_code": "COURSE_LOGGING_READY"})
+
+class CourseLogFilter(logging.Filter):
+    def __init__(self, lesson_id: str) -> None:
+        super().__init__()
+        self.lesson_id = lesson_id
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        record.lesson_id = getattr(record, "lesson_id", _LOG_CONTEXT.get()[0] if _LOG_CONTEXT.get()[0] != "-" else self.lesson_id)
+        record.event_code = getattr(record, "event_code", "GENERAL")
+        record.session_id = getattr(record, "session_id", _LOG_CONTEXT.get()[1])
+        record.msg = _redact_text(record.msg) if isinstance(record.msg, str) else record.msg
+        if isinstance(record.args, Mapping):
+            record.args = sanitize(record.args)
+        elif isinstance(record.args, tuple):
+            record.args = tuple(sanitize(item) for item in record.args)
+        return True
 
 
 def _decorate_decorate_operation(func: Callable[..., Any],

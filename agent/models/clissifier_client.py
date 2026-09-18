@@ -1,12 +1,13 @@
 import json
 import os
+from typing import Any
 
 import httpx
 from pydantic import ValidationError
 
-from agent.agent_logging import log_model_input, log_model_output
-from agent.api.schemas import IntentResult
-from agent.config.setting import api_key_is_missing
+from agent_logging import log_model_input, log_model_output
+from api.schemas import IntentResult, Intent
+from config.setting import api_key_is_missing
 
 
 def build_classifier_messages(user_message: str) -> list[dict[str, str]]:
@@ -18,7 +19,7 @@ def build_classifier_messages(user_message: str) -> list[dict[str, str]]:
         {
             "role":
             "system",
-            "content": ("你是小哲电商客服 Agent 的轻量意图分类器。"
+            "content": ("你是小杰电商客服 Agent 的轻量意图分类器。"
                         "只输出 JSON，不要输出 Markdown。"
                         "你只能判断用户消息的大类，不能执行工具、不能批准退款、不能承诺售后动作。"),
         },

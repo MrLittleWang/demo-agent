@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 import httpx
 from pydantic import BaseModel
 
-from agent.agent_logging import log_model_input, log_model_output
-from agent.config.setting import api_key_is_missing
+from agent_logging import log_model_input, log_model_output
+from config.setting import api_key_is_missing
 
 load_dotenv()
 
@@ -52,7 +52,7 @@ def compose_grounded_answer(*, user_message: str, deterministic_answer: str,
         {
             "role":
             "system",
-            "content": ("你是小哲电商公司的客服 Agent。只能根据结构化 intent_result 和课程边界回复；"
+            "content": ("你是小杰电商公司的客服 Agent。只能根据结构化 intent_result 和课程边界回复；"
                         "不得编造订单、物流、活动规则、退款资格、赔偿或人工流转结果。"),
         },
         {

@@ -2,10 +2,10 @@ import re
 
 import httpx
 
-from agent.models.clissifier_client import classify_intent_with_model
-from agent.agent_logging import log_course_event, observe_chat
-from agent.api.schemas import ChatRequest, ChatResponse, Intent, IntentResult
-from agent.models.answer_client import compose_grounded_answer
+from models.clissifier_client import classify_intent_with_model
+from agent_logging import log_course_event, observe_chat
+from api.schemas import ChatRequest, ChatResponse, Intent, IntentResult
+from models.answer_client import compose_grounded_answer
 
 INTENT_RULES: list[tuple[Intent, list[str], str]] = [
     ("complaint", ["投诉", "举报", "赔偿", "曝光", "315",
@@ -229,19 +229,19 @@ class CustomServiceAgent:
     def __init__(
         self,
         *,
-        chat_http_client: httpx.Client | None = None,
-        chat_api_key: str | None = None,
-        chat_base_url: str | None = None,
-        chat_model_name: str | None = None,
+        classifier_http_client: httpx.Client | None = None,
+        classifier_api_key: str | None = None,
+        classifier_base_url: str | None = None,
+        classifier_model_name: str | None = None,
     ) -> None:
-        """初始化第 02 课 Agent，并允许测试注入模型 HTTP 客户端。"""
+        """初始化意图分拣 Agent，并允许测试注入分类模型客户端。"""
 
-        # 这是最小会话状态，用来证明同一个 session_id 下的请求会被归到同一段对话。
+        # 仍然只保留最小会话计数，不保存历史对话。
         self._message_count_by_session: dict[str, int] = {}
-        self._chat_http_client = chat_http_client
-        self._chat_api_key = chat_api_key
-        self._chat_base_url = chat_base_url
-        self._chat_model_name = chat_model_name
+        self._classifier_http_client = classifier_http_client
+        self._classifier_api_key = classifier_api_key
+        self._classifier_base_url = classifier_base_url
+        self._classifier_model_name = classifier_model_name
 
     @observe_chat
     def chat(self, request) -> ChatResponse:
@@ -286,18 +286,7 @@ class CustomServiceAgent:
                          used_model=model_answer.used_model,
                          fallback_reason=model_answer.fallback_reason)
 
-        answer = call_chat_model(
-            messages,
-            http_client=self._chat_http_client,
-            api_key=self._chat_api_key,
-            base_url=self._chat_base_url,
-            model=self._chat_model_name,
-        )
-        log_course_event("LLM_ONLY_ANSWER_READY",
-                         "纯模型客服回答已生成",
-                         teaching=True,
-                         answer_source="llm_only",
-                         answer_length=len(answer))
+       
         reasoning_summary = [
             "后端接收 ChatRequest，保持 user_message 与 runtime_* 分离。",
             "这一版用规则优先、小模型兜底，把用户问题分成一个粗 intent。",

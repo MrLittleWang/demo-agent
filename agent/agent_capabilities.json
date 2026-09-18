@@ -1,14 +1,14 @@
 {
   "schema_version": "agent_capabilities_v1",
   "lesson": {
-    "id": "lesson-04-intent-structured-output",
-    "number": 4,
-    "title": "AI 说“我帮你处理”，售后却没收到退货请求｜结构化输出与意图识别",
-    "summary": "当前版本让 /chat 响应第一次返回 intent，并让真实大模型基于结构化意图生成克制客服回复。"
+    "id": "lesson-05-prompt-boundary",
+    "number": 5,
+    "title": "AI 乱承诺赔钱了，你把规则全塞进 Prompt｜Prompt 边界与长上下文冲突",
+    "summary": "当前版本先用 system prompt 管住客服身份、事实优先级和回答边界，再把活动、售后和客服边界文档全量注入 Prompt，暴露上下文变长与规则冲突问题。"
   },
   "agent": {
     "name": "小哲电商客服 Agent",
-    "version": "lesson-04-intent-structured-output"
+    "version": "lesson-05-prompt-boundary-full-context"
   },
   "endpoints": {
     "health": true,
@@ -22,8 +22,6 @@
     "runtime_context": true,
     "reasoning_summary": true,
     "reasoning_content": false,
-    "real_llm_answer": true,
-    "grounded_model_answer": true,
     "structured_intent": true,
     "rag_citations": false,
     "tool_calls": false,
@@ -37,7 +35,7 @@
   },
   "disabled_reasons": {
     "reasoning_content": "当前版本只展示公开执行摘要，不展示模型 reasoning_content。",
-    "rag_citations": "RAG 和引用来源还没有接入。",
+    "rag_citations": "这一版是全量 Prompt，不做 RAG 引用。",
     "tool_calls": "业务工具还没有接入。",
     "workflow": "售后工作流还没有接入。",
     "human_approval": "HITL 人工确认还没有接入。",
@@ -45,6 +43,6 @@
     "hooks": "Hooks 治理还没有接入。",
     "trace": "Trace 公开轨迹还没有接入。",
     "evaluation": "Evaluation 回归评测还没有接入。",
-    "cost_summary": "成本统计还没有接入。"
+    "cost_summary": "本课只粗略观察上下文长度，还没有形成成本响应字段。"
   }
 }

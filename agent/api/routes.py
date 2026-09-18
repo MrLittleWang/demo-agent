@@ -2,11 +2,11 @@ from typing import Any
 
 from fastapi import APIRouter, HTTPException
 
-from agent.api.schemas import ChatRequest, ChatResponse
-from agent.config.setting import load_agent_capabilities
+from api.schemas import ChatRequest, ChatResponse
+from config.setting import load_agent_capabilities
 
 
-def creat_router(agent_provider: Any) -> APIRouter:
+def create_router(agent_provider: Any) -> APIRouter:
     router = APIRouter()
 
     @router.get("/health")
@@ -24,7 +24,7 @@ def creat_router(agent_provider: Any) -> APIRouter:
     @router.post("/chat")
     def chat(chat_request: ChatRequest) -> ChatResponse:
         try:
-            return agent_provider.chat(chat_request)
+            return agent_provider().chat(chat_request)
         except RuntimeError as e:
             raise HTTPException(status_code=503, detail=str(e)) from e
 
